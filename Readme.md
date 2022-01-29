@@ -1,10 +1,9 @@
 # Личный проект «Седона»
 
 * Студент: [Даниил Суворов](https://up.htmlacademy.ru/htmlcss/33/user/1827303).
-* Наставник: `Неизвестно`.
+* Наставник: [Константин Соколов](https://htmlacademy.ru/profile/id243814).
 
 ---
-
 _Не удаляйте и не обращайте внимание на файлы:_<br>
 _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`._
 
