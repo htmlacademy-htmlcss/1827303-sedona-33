@@ -100,12 +100,13 @@
           </ul>
         </fieldset>
 
-        <p>Стоимость, ₽:</p>
+        <fieldset class="catalog-filter-range">
+          <p>Стоимость, ₽:</p>
+          <p>0<span class="range-segment-from">от</span></p>
+          <p>9000<span class="range-segment-to">до</span></p>
 
-        <p>0<span class="range-segment-from">от</span></p>
-        <p>9000<span class="range-segment-to">до</span></p>
-
-        <input type="range" name="range-price">
+         <input type="range" name="range-price">
+        </fieldset>
 
         <button class="button button-send button-filter-on" type="submit">Применить</button>
         <button class="button button-clear" type="button">Сбросить</button>
