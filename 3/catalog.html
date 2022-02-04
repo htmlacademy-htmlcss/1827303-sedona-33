@@ -104,10 +104,14 @@
         <fieldset class="catalog-filter-range">
           <legend class="visually-hidden">Диапазон цен</legend>
           <p>Стоимость, ₽:</p>
-          <p>0<span class="range-segment-from">от</span></p>
-          <p>9000<span class="range-segment-to">до</span></p>
 
-         <input type="range" name="range-price">
+          <label for="segment-min">от</label>
+            <input class="range-segment-min" type="text" id="segment-min" placeholder="0">
+
+          <label for="segment-max">до</label>
+            <input class="range-segment-max" type="text" id="segment-max" placeholder="9000">
+
+         <input type="range" name="price" min="0" max="10000" value="9000">
         </fieldset>
 
         <button class="button button-send button-filter-on" type="submit">Применить</button>
@@ -268,7 +272,7 @@
       </ul>
       <a class="footer-link-tel" href="tel:+78128121212">+7 (812) 812-12-12</a>
       <a class="footer-link-logo" href="https://htmlacademy.ru/">
-        <img class="footer-logo-academy" src="" alt="HTMLAcademy" width="114,9" height="32,9">
+        <img class="footer-logo-academy" src="" alt="HTMLAcademy" width="115" height="33">
       </a>
     </footer>
 
