@@ -50,3 +50,16 @@ body {
   color: #000000;
   background-color: #FFFFFF;
 }
+
+.main-index {
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
+.first-screen {
+  color: #000000;
+  background-color: #FFFFFF;
+  background-image: url("/images/index-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
