@@ -56,10 +56,17 @@ body {
   background-color: #FFFFFF;
 }
 
-.first-screen {
+.first-screen-image {
   color: #000000;
   background-color: #FFFFFF;
   background-image: url("/images/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+}
+
+.text-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
 }
