@@ -143,7 +143,7 @@ body {
 .catalog-filter {
   color: #FFFFFF;
   background-color: #000000;
-  background-image: url("../images/catalog-background.jpg");
+  background-image: url("/images/catalog-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
@@ -324,7 +324,7 @@ body {
   color: #FFFFFF;
   background-color: #000000;
   text-align: center;
-  background-image: url("../images/background-subscribe.jpg");
+  background-image: url("/images/background-subscribe.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
