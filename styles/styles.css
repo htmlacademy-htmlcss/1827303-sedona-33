@@ -316,7 +316,7 @@ body {
 }
 
 .sudscribe {
-  font-size: inherit;
+  font-size: 22px;
   line-height: 26px;
   color: #FFFFFF;
   background-color: #000000;
@@ -332,10 +332,6 @@ body {
   line-height: 36px;
   text-transform: uppercase;
 }
-
-
-
-
 
 /* ФУТЕР */
 .page-footer {
