@@ -24,6 +24,7 @@ body {
   background-color: #FFFFFF;
 }
 
+/* КНОПКИ */
 .button {
   font-family: inherit;
   font-weight: 700;
@@ -72,7 +73,6 @@ body {
   font-weight: 400;
   background-color: none;
 }
-
 
 .button-filter {
   color: #000000;
@@ -126,6 +126,7 @@ body {
   background-color: #FFFFFF;
 }
 
+/* MAIN CATALOG*/
 .main-inner {
   font-style: inherit;
   font-size: 18px;
@@ -220,10 +221,7 @@ body {
 
 
 
-
-
-
-
+/* MAIN INDEX*/
 .first-screen-image {
   color: #FFFFFF;
   background-color: #000000;
