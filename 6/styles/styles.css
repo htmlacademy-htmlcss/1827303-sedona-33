@@ -1,0 +1,354 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
+/* Button */
+.button {
+  font-family: inherit;
+  font-weight: 700;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #756257;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button-header {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.button-search {
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.button-social {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.button-send {
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background-color: #83B3D3;
+}
+
+.button-subscribe {
+  font-size: 20px;
+  line-height: 26px;
+  align-items: center;
+  background-color: #83B3D3;
+}
+
+.button-filter-on {
+  align-items: center;
+}
+
+/*Не отключается цвет*/
+.button-clear {
+  font-weight: 400;
+  background-color: none;
+}
+
+.button-filter {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.hotel-link {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.button-catalog {
+  align-items: center;
+}
+
+.button-catalog-current {
+  color: #FFFFFF;
+  background-color: #7DB54F;
+}
+
+.button-pagination {
+  font-size: 20px;
+  line-height: 26px;
+  align-items: center;
+}
+
+.button-pagination-current {
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+/* Pages */
+.page-header {
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
+.navigation-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-decoration: none;
+  text-align: center;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+/* MAIN INDEX */
+.main-index {
+  font-style: inherit;
+  font-size: 22px;
+  line-height: 36px;
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
+/* MAIN CATALOG */
+.main-inner {
+  font-style: inherit;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
+/* Filter */
+.catalog-filter {
+  color: #FFFFFF;
+  background-color: #000000;
+  background-image: url("/images/catalog-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.main-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.breadcrumbs-link {
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: none;
+}
+
+.catalog-filter-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.catalog-filter-price {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.catalog-filter-range label {
+  opacity: 0.3;
+}
+
+/* Stock filter*/
+.inner-header-filter {
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.found {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+}
+
+.select-control {
+  color: #333333;
+  background-color: inherit;
+}
+
+/* Catalog */
+.catalog {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
+.item-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  color: #000000;
+  background-color: inherit;
+}
+
+.rating {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+  background-color: #F2F2F2;
+}
+
+.subscribe-catalog {
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+.subscribe-catalog h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+/* MAIN INDEX */
+.first-screen-image {
+  color: #FFFFFF;
+  background-color: #000000;
+  background-image: url("/images/index-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.first-screen-title {
+  text-align: center;
+}
+
+.index-text-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+  background: #FFFFFF;
+}
+
+/* Advantages */
+.advantage-list {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
+.advantage-title-photo {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.advantage-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.advantage-subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.advantage-list .advantage-iteam:nth-of-type(1),
+.advantage-list .advantage-iteam:nth-of-type(2) {
+  color: #FFFFFF;
+  background-color: #83B3D3;
+}
+
+.search {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+.search-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.subscribe {
+  font-size: 22px;
+  line-height: 26px;
+  color: #FFFFFF;
+  background-color: #000000;
+  text-align: center;
+  background-image: url("/images/background-subscribe.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.subscribe h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+/* Footer */
+.page-footer {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.footer-link-tel {
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
