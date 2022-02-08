@@ -173,13 +173,13 @@ body {
   line-height: 26px;
 }
 
-.segment-min {
+.catalog-filter-range label {
   opacity: 0.3;
 }
 
-.segment-max {
-  opacity: 0.3;
-}
+
+
+
 
 .inner-header-filter {
   color: #000000;
