@@ -29,7 +29,7 @@ body {
   font-weight: 700;
   text-align: center;
   color: #FFFFFF;
-  background-color: #000000;
+  background-color: #756257;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -37,19 +37,23 @@ body {
 .button-header {
   font-size: 16px;
   line-height: 20px;
-  background-color: #756257;
 }
 
 .button-search {
   font-size: 20px;
   line-height: 36px;
-  background-color: #756257;
 }
 
 .button-subscribe {
   font-size: 20px;
   line-height: 26px;
   align-items: center;
+  background-color: #83B3D3;
+}
+
+.button-social {
+  color: #000000;
+  background-color: #FFFFFF;
 }
 
 .button-send {
@@ -59,19 +63,27 @@ body {
   background-color: #83B3D3;
 }
 
-
 .button-filter-on {
   align-items: center;
 }
 
+/*Не отключается цвет*/
 .button-clear {
   background-color: none;
 }
+
 
 .button-filter {
   color: #000000;
   background-color: #FFFFFF;
 }
+
+.hotel-link {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+
 
 .button-catalog-current {
   color: #FFFFFF;
