@@ -224,7 +224,23 @@ body {
   background-color: #F2F2F2;
 }
 
+.subscribe-catalog {
+  font-size: 22px;
+  line-height: 26px;
+  color: #FFFFFF;
+  background-color: #000000;
+  text-align: center;
+  background-image: url("../images/background-subscribe.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
 
+.subscribe h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
 
 
 /* MAIN INDEX*/
@@ -317,7 +333,7 @@ body {
   text-transform: uppercase;
 }
 
-.sudscribe {
+.subscribe {
   font-size: 22px;
   line-height: 26px;
   color: #FFFFFF;
@@ -328,7 +344,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.sudscribe h2 {
+.subscribe h2 {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
