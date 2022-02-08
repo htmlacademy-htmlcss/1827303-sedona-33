@@ -254,6 +254,12 @@ body {
   background-color: inherit;
 }
 
+.advantage-list li:nth-of-type(1),
+.advantage-list li:nth-of-type(2) {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
 .advantage-title {
   font-weight: 700;
   font-size: 24px;
@@ -268,20 +274,17 @@ body {
   background-color: #000000;
 }
 
-
-
+.advantage-iteam-subiteam {
+  color: #000000;
+  background-color: #FFFFFF;
+}
 
 .advantage-subtitle {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-}
-
-.advantage-list li:nth-of-type(1),
-.advantage-list li:nth-of-type(2) {
-  color: #FFFFFF;
-  background-color: #000000;
-
+  color: #000000;
+  background-color: #FFFFFF;
 }
 
 .search {
