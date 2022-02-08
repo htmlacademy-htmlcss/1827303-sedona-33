@@ -270,14 +270,38 @@ body {
   font-size: 18px;
   line-height: 21px;
   text-align: center;
-  color: #000000;
+  color: #333333;
   background-color: #FFFFFF;
 }
 
-.advantage-list li:nth-of-type(1) {
+.advantage-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.advantage-title:nth-of-type(3),
+.advantage-title:nth-of-type(4),
+.advantage-title:nth-of-type(5) {
+  color: #000000;
+}
+
+.advantage-subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.advantage-list .advantage-iteam:nth-of-type(1),
+.advantage-list .advantage-iteam:nth-of-type(2) {
   color: #FFFFFF;
   background-color: #83B3D3;
 }
+
+
 
 /*
 .advantage-title {
@@ -287,6 +311,9 @@ body {
   text-transform: uppercase;
 }
 
+
+
+/*
 .advantage-title-photo {
   color: #FFFFFF;
   background-color: #000000;
