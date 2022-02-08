@@ -120,7 +120,7 @@ body {
   background-color: #FFFFFF;
 }
 
-/* MAIN INDEX*/
+/* MAIN INDEX */
 .main-index {
   font-style: inherit;
   font-size: 22px;
@@ -129,7 +129,7 @@ body {
   background-color: #FFFFFF;
 }
 
-/* MAIN CATALOG*/
+/* MAIN CATALOG */
 .main-inner {
   font-style: inherit;
   font-weight: 400;
@@ -139,6 +139,7 @@ body {
   background-color: #FFFFFF;
 }
 
+/* ФИЛЬТРАЦИЯ */
 .catalog-filter {
   color: #FFFFFF;
   background-color: #000000;
@@ -177,11 +178,10 @@ body {
   opacity: 0.3;
 }
 
-
-
-
-
+/* ФИЛЬТР ВЫДАЧИ */
 .inner-header-filter {
+  font-size: 18px;
+  line-height: 23px;
   color: #000000;
   background-color: #FFFFFF;
 }
@@ -197,6 +197,7 @@ body {
   background-color: inherit;
 }
 
+/* КАТАЛОГ */
 .catalog {
   font-weight: 400;
   font-size: 18px;
