@@ -1,0 +1,269 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
+.button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #756257;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button-send {
+  line-height: 21px;
+  align-items: center;
+  color: #FFFFFF;
+  background-color: #83B3D3;
+}
+
+.button-clear {
+  background-color: none;
+}
+
+.button-filter {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.button-catalog-current {
+  color: #FFFFFF;
+  background-color: #7DB54F;
+}
+
+.page-header {
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
+.navigation-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-decoration: none;
+  text-align: center;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.main-index {
+  font-style: inherit;
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
+.main-inner {
+  font-style: inherit;
+  font-size: 18px;
+  line-height: 23px;
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
+.catalog-filter {
+  color: #FFFFFF;
+  background-color: #000000;
+  background-image: url("../images/catalog-background.jpg");
+}
+
+.catalog-filter-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.breadcrumbs {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+.breadcrumbs-link {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.catalog-filter-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.catalog-filter-price {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.segment-min {
+  opacity: 0.3;
+}
+
+.segment-max {
+  opacity: 0.3;
+}
+
+.inner-header-filter {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.found {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+}
+
+.select-control {
+  color: #333333;
+  background-color: inherit;
+}
+
+.catalog {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.item-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.rating {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+  background-color: #F2F2F2;
+}
+
+
+
+
+
+
+
+.first-screen-image {
+  color: #FFFFFF;
+  background-color: #000000;
+  background-image: url("/images/index-background.jpg");
+  background-size: 1200px 485px;
+  background-repeat: no-repeat;
+}
+
+.first-screen-title {
+  text-align: center;
+}
+
+.index-text-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+  background: #FFFFFF;
+}
+
+.advantage-list {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  text-align: center;
+  color: inherit;
+  background-color: inherit;
+}
+
+.advantage-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  background-color: #F2F2F2;
+  text-transform: uppercase;
+}
+
+.advantage-subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.advantage-list li:nth-of-type(1),
+.advantage-list li:nth-of-type(2) {
+  color: #FFFFFF;
+}
+
+.search {
+  font-size: inherit;
+  line-height: 26px;
+  color: #000000;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+.search-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.sudscribe {
+  font-size: inherit;
+  line-height: 26px;
+  color: #FFFFFF;
+  background-color: #000000;
+  text-align: center;
+  background-image: url("../images/background-subscribe.jpg");
+}
+
+.sudscribe h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.page-footer {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.footer-link-tel {
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
