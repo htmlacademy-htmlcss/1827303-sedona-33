@@ -24,7 +24,7 @@ body {
   background-color: #FFFFFF;
 }
 
-/* КНОПКИ */
+/* Button */
 .button {
   font-family: inherit;
   font-weight: 700;
@@ -104,7 +104,7 @@ body {
   background-color: #F2F2F2;
 }
 
-/* ХЕДЕР */
+/* Pages */
 .page-header {
   color: #333333;
   background-color: #FFFFFF;
@@ -139,7 +139,7 @@ body {
   background-color: #FFFFFF;
 }
 
-/* ФИЛЬТРАЦИЯ */
+/* Filter */
 .catalog-filter {
   color: #FFFFFF;
   background-color: #000000;
@@ -178,7 +178,7 @@ body {
   opacity: 0.3;
 }
 
-/* ФИЛЬТР ВЫДАЧИ */
+/* Stock filter*/
 .inner-header-filter {
   font-size: 18px;
   line-height: 23px;
@@ -197,7 +197,7 @@ body {
   background-color: inherit;
 }
 
-/* КАТАЛОГ */
+/* Catalog */
 .catalog {
   font-weight: 400;
   font-size: 18px;
@@ -240,7 +240,7 @@ body {
   text-transform: uppercase;
 }
 
-/* MAIN INDEX*/
+/* MAIN INDEX */
 .first-screen-image {
   color: #FFFFFF;
   background-color: #000000;
@@ -262,17 +262,24 @@ body {
   background: #FFFFFF;
 }
 
-/* ПРЕИМУЩЕСТВА */
-/*
+/* Advantages */
+
+
 .advantage-list {
+  font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  font-weight: 400;
   text-align: center;
   color: #000000;
   background-color: #FFFFFF;
 }
 
+.advantage-list li:nth-of-type(1) {
+  color: #FFFFFF;
+  background-color: #83B3D3;
+}
+
+/*
 .advantage-title {
   font-weight: 700;
   font-size: 24px;
@@ -344,7 +351,7 @@ body {
   text-transform: uppercase;
 }
 
-/* ФУТЕР */
+/* Footer */
 .page-footer {
   color: #000000;
   background-color: #FFFFFF;
