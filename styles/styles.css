@@ -27,6 +27,9 @@ body {
 .button {
   font-family: inherit;
   font-weight: 700;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #000000;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -34,15 +37,20 @@ body {
 .button-header {
   font-size: 16px;
   line-height: 20px;
-  text-align: center;
-  color: #FFFFFF;
   background-color: #756257;
 }
 
 .button-search {
   font-size: 20px;
   line-height: 36px;
+  colo
+  background-color: #756257;
 }
+
+
+
+
+
 
 .button-send {
   line-height: 21px;
