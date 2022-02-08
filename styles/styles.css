@@ -263,8 +263,6 @@ body {
 }
 
 /* Advantages */
-
-
 .advantage-list {
   font-weight: 400;
   font-size: 18px;
@@ -274,17 +272,20 @@ body {
   background-color: #FFFFFF;
 }
 
-.advantage-title {
+.advantage-title-photo {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
 }
 
-.advantage-title:nth-of-type(3),
-.advantage-title:nth-of-type(4),
-.advantage-title:nth-of-type(5) {
+.advantage-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
   color: #000000;
+  background-color: #FFFFFF;
 }
 
 .advantage-subtitle {
@@ -300,49 +301,6 @@ body {
   color: #FFFFFF;
   background-color: #83B3D3;
 }
-
-
-
-/*
-.advantage-title {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-  text-transform: uppercase;
-}
-
-
-
-/*
-.advantage-title-photo {
-  color: #FFFFFF;
-  background-color: #000000;
-}
-
-.advantage-title-photo .advantage-descriprion {
-  color: #FFFFFF;
-  background-color: #000000;
-}
-
-.advantage-list li:nth-child(1),
-.advantage-list li:nth-child(2)) {
-  color: #FFFFFF;
-  background-color: #000000;
-}
-
-.advantage-sub-list li {
-  color: #000000;
-  background-color: #FFFFFF;
-}
-
-.advantage-subtitle {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-  color: #000000;
-  background-color: #FFFFFF;
-}
-*/
 
 .search {
   font-weight: normal;
