@@ -227,21 +227,18 @@ body {
 .subscribe-catalog {
   font-size: 22px;
   line-height: 26px;
-  color: #FFFFFF;
-  background-color: #000000;
+  color: #333333;
+  background-color: #FFFFFF;
   text-align: center;
-  background-image: url("../images/background-subscribe.jpg");
-  background-size: 100% auto;
-  background-repeat: no-repeat;
 }
 
-.subscribe h2 {
+.subscribe-catalog h2 {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
+  color: #000000;
   text-transform: uppercase;
 }
-
 
 /* MAIN INDEX*/
 .first-screen-image {
