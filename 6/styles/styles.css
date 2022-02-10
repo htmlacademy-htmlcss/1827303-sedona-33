@@ -105,11 +105,7 @@ body {
 }
 
 /* Pages */
-.page-header {
-  color: #333333;
-  background-color: #FFFFFF;
-}
-
+/* Header */
 .navigation-link {
   font-weight: 700;
   font-size: 20px;
@@ -142,7 +138,7 @@ body {
 /* Filter */
 .catalog-filter {
   color: #FFFFFF;
-  background-color: #000000;
+  background-color: #83B3D3;
   background-image: url("../images/catalog-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -168,10 +164,9 @@ body {
   line-height: 26px;
 }
 
-.catalog-filter-price {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 26px;
+.catalog-filter input {
+  color: inherit;
+  background-color: #83B3D3;
 }
 
 .catalog-filter-range label {
@@ -190,6 +185,7 @@ body {
   font-weight: 700;
   font-size: 30px;
   line-height: 39px;
+  text-transform: uppercase;
 }
 
 .select-control {
@@ -240,6 +236,12 @@ body {
   text-transform: uppercase;
 }
 
+.subscribe-catalog input{
+  color: #000000;
+  background-color: #F2F2F2;
+  opacity: 0.6;
+}
+
 /* MAIN INDEX */
 .first-screen-image {
   color: #FFFFFF;
@@ -253,7 +255,7 @@ body {
   text-align: center;
 }
 
-.index-text-title {
+.first-screen-title .first-screen-subtitle {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -272,11 +274,29 @@ body {
   background-color: #FFFFFF;
 }
 
+.advantage-iteam {
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
+.advantage-list .advantage-iteam:nth-of-type(1),
+.advantage-list .advantage-iteam:nth-of-type(2) {
+  color: #FFFFFF;
+  background-color: #83B3D3;
+}
+
 .advantage-title-photo {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
+  color: inherit;
+  background-color: inherit;
+}
+
+.advantage-title-photo + .advantage-descriprion {
+  color: inherit;
+  background-color: inherit;
 }
 
 .advantage-title {
@@ -288,18 +308,28 @@ body {
   background-color: #FFFFFF;
 }
 
+.advantage-title + .advantage-descriprion {
+  color: inherit;
+  background-color: inherit;
+}
+
+.advantage-iteam-subiteam {
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
 .advantage-subtitle {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
   color: #000000;
+  background-color: #FFFFFF;
 }
 
-.advantage-list .advantage-iteam:nth-of-type(1),
-.advantage-list .advantage-iteam:nth-of-type(2) {
-  color: #FFFFFF;
-  background-color: #83B3D3;
+.advantage-sub-descriprion {
+  color: inherit;
+  background-color: inherit;
 }
 
 .search {
