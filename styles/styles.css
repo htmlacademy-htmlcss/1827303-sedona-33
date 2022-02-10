@@ -105,11 +105,7 @@ body {
 }
 
 /* Pages */
-.page-header {
-  color: #333333;
-  background-color: #FFFFFF;
-}
-
+/* Header */
 .navigation-link {
   font-weight: 700;
   font-size: 20px;
