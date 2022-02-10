@@ -260,7 +260,7 @@ body {
   text-align: center;
 }
 
-.first-screen-title p {
+.first-screen-title .first-screen-subtitle {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
