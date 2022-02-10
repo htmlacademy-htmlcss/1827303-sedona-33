@@ -190,6 +190,7 @@ body {
   font-weight: 700;
   font-size: 30px;
   line-height: 39px;
+  text-transform: uppercase;
 }
 
 .select-control {
@@ -240,6 +241,12 @@ body {
   text-transform: uppercase;
 }
 
+.subscribe-catalog input{
+  color: #000000;
+  background-color: #F2F2F2;
+  opacity: 0.6;
+}
+
 /* MAIN INDEX */
 .first-screen-image {
   color: #FFFFFF;
@@ -253,7 +260,7 @@ body {
   text-align: center;
 }
 
-.index-text-title {
+.first-screen-title p {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
