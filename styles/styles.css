@@ -164,12 +164,6 @@ body {
   line-height: 26px;
 }
 
-.catalog-filter-price {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 26px;
-}
-
 .catalog-filter-range label {
   opacity: 0.3;
 }
