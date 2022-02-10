@@ -164,6 +164,11 @@ body {
   line-height: 26px;
 }
 
+.catalog-filter input {
+  color: inherit;
+  background-color: #83B3D3;
+}
+
 .catalog-filter-range label {
   opacity: 0.3;
 }
