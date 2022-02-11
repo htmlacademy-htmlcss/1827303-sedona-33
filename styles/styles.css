@@ -313,9 +313,15 @@ body {
   background-color: inherit;
 }
 
-.advantage-iteam-subiteam {
+.advantage-subiteam {
   color: #333333;
   background-color: #FFFFFF;
+}
+
+.advantage-sub-list li:nth-child(1),
+.advantage-sub-list li:nth-child(3) {
+  color: #333333;
+  background-color: rgba(131, 179, 211, 0.12);
 }
 
 .advantage-subtitle {
@@ -324,7 +330,7 @@ body {
   line-height: 28px;
   text-transform: uppercase;
   color: #000000;
-  background-color: #FFFFFF;
+  background-color: inherit;
 }
 
 .advantage-sub-descriprion {
