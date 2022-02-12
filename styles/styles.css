@@ -173,6 +173,11 @@ body {
   background-color: #FFFFFF;
 }
 
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 /* Filter */
 .catalog-filter {
   color: #FFFFFF;
@@ -287,6 +292,11 @@ body {
   background-image: url("../images/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+}
+
+.main-logo {
+  display: block;
+  margin: 0 auto;
 }
 
 .first-screen-title {
