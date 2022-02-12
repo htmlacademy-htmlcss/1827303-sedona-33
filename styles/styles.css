@@ -453,6 +453,8 @@ body {
 }
 
 .footer-list-social {
+  margin: 0;
+  padding: 0;
   max-width: 107px;
   margin-right: 60px;
 }
