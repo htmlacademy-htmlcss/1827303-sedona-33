@@ -447,7 +447,23 @@ body {
 }
 
 .page-footer-container {
+  display: flex;
   width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-list-social {
+  max-width: 107px;
+  margin-right: 60px;
+}
+
+.footer-link-tel {
+  width: 720px;
+}
+
+.footer-link-logo {
+  width: 115px;
+  margin-left: 50px;
 }
 
 .footer-link-tel {
