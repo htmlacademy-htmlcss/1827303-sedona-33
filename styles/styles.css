@@ -174,7 +174,7 @@ body {
 }
 
 .page-container {
-  width: 1200px;
+  width: 1060px;
   margin: 0 auto;
 }
 
@@ -299,6 +299,30 @@ body {
   text-transform: uppercase;
   color: #333333;
   background-color: #F2F2F2;
+}
+
+.pagination-show-more {
+  display: block;
+  width: 620px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.pagination-container {
+  display: flex;
+  flex-direction: row;
+  width: 1060px;
+}
+
+.pagination-list {
+  display: flex;
+  flex-direction: row;
+  margin: 0 300px 0 0;
+  padding: 0;
+}
+
+.pagination-item {
+  width: 55px;
 }
 
 .subscribe-catalog {
@@ -486,7 +510,7 @@ body {
 
 .page-footer-container {
   display: flex;
-  width: 1200px;
+  width: 1060px;
   margin: 0 auto;
 }
 
