@@ -216,6 +216,11 @@ body {
   line-height: 26px;
 }
 
+.catalog-filter-list {
+  margin: 0;
+  padding: 0;
+}
+
 .catalog-filter input {
   color: inherit;
   background-color: #83B3D3;
