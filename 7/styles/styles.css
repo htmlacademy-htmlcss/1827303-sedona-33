@@ -210,6 +210,10 @@ body {
   display: flex;
 }
 
+.catalog-filter-group {
+  width: 150px;
+}
+
 .catalog-filter-title {
   font-weight: 700;
   font-size: 20px;
