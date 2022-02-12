@@ -269,10 +269,18 @@ body {
   background-color: #FFFFFF;
 }
 
-.catalog-container {
+.catalog-list {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   width: 1060px;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.catalog-item {
+  width: 340px;
 }
 
 .item-title {
