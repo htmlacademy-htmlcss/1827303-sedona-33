@@ -174,7 +174,7 @@ body {
 }
 
 .page-container {
-  width: 1060px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -284,7 +284,7 @@ body {
   flex-wrap: wrap;
   width: 1060px;
   justify-content: space-between;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -321,6 +321,7 @@ body {
   display: flex;
   flex-direction: row;
   width: 1060px;
+  margin: 0 auto;
 }
 
 .pagination-list {
@@ -340,6 +341,11 @@ body {
   color: #333333;
   background-color: #FFFFFF;
   text-align: center;
+}
+
+.subscribe-container {
+  width: 800px;
+  margin: 0 auto;
 }
 
 .subscribe-catalog h2 {
@@ -397,24 +403,24 @@ body {
   background-color: #FFFFFF;
 }
 
-.advantage-list .advantage-iteam:nth-of-type(1),
-.advantage-list .advantage-iteam:nth-of-type(2) {
+.advantage-list .advantage-item:nth-of-type(1),
+.advantage-list .advantage-item:nth-of-type(3) {
   color: #FFFFFF;
   background-color: #83B3D3;
 }
 
-.advantage-list li:nth-of-type(3),
-.advantage-list li:nth-of-type(5) {
+.advantage-list li:nth-of-type(4),
+.advantage-list li:nth-of-type(6) {
   color: #333333;
   background-color: rgba(131, 179, 211, 0.12);
 }
 
-.advantage-list li:nth-of-type(4) {
+.advantage-list li:nth-of-type(5) {
   color: #333333;
   background-color: rgba(131, 179, 211, 0.2);
 }
 
-.advantage-iteam {
+.advantage-item {
   width: 400px;
 }
 
@@ -437,22 +443,18 @@ body {
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
-  color: #000000;
-  background-color: inherit;
-}
-
-.advantage-title + .advantage-descriprion {
-  color: inherit;
-  background-color: inherit;
 }
 
 .advantage-sub-list {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
 }
 
-.advantage-subiteam {
+.advantage-subitem {
+  width: 400px;
   color: #333333;
   background-color: #FFFFFF;
 }
@@ -469,12 +471,7 @@ body {
   line-height: 28px;
   text-transform: uppercase;
   color: #000000;
-  background-color: inherit;
-}
-
-.advantage-sub-descriprion {
-  color: inherit;
-  background-color: inherit;
+  background-color: none;
 }
 
 .search {
