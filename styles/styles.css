@@ -279,11 +279,7 @@ body {
 }
 
 .catalog-list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   width: 1060px;
-  justify-content: space-between;
   margin: 0 auto;
   padding: 0;
 }
