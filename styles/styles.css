@@ -398,6 +398,8 @@ body {
   background-image: url("../images/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+  padding-top: 46px;
+  padding-bottom: 82px;
 }
 
 .main-logo {
@@ -409,7 +411,15 @@ body {
   text-align: center;
 }
 
+.first-screen-title p {
+  width: 720px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
 .first-screen-title .first-screen-subtitle {
+  padding-top: 63px;
+  padding-bottom: 31px;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
