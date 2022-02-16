@@ -108,6 +108,7 @@ body {
 }
 
 .button-pagination {
+  display: block;
   font-size: 20px;
   line-height: 26px;
   align-items: center;
@@ -214,6 +215,7 @@ body {
 /* Filter */
 .catalog-filter {
   padding-top: 30px;
+  padding-bottom: 83px;
   color: #FFFFFF;
   background-color: #83B3D3;
   background-image: url("../images/catalog-background.jpg");
@@ -234,6 +236,7 @@ body {
   display: flex;
   align-items: center;
   margin: 0;
+  margin-bottom: 45px;
   padding: 0;
   list-style: none;
 }
@@ -288,20 +291,21 @@ body {
 
 /* Stock filter*/
 .inner-header-filter {
+  display: flex;
+  align-items: center;
+  width: 1060px;
+  margin: 0 auto;
+  margin-top: 48px;
+  margin-bottom: 53px;
   font-size: 18px;
   line-height: 23px;
   color: #000000;
   background-color: #FFFFFF;
 }
 
-.header-filter-container {
-  display: flex;
-  width: 1060px;
-  margin: 0 auto;
-}
-
 .found {
   width: 340px;
+  margin: 0;
   margin-right: 192px;
   font-weight: 700;
   font-size: 30px;
@@ -310,15 +314,27 @@ body {
 }
 
 .select-control {
-  width: 287;
+  width: 287px;
+  height: 48px;
   margin-right: 80px;
   color: #333333;
   background-color: inherit;
 }
 
 .filter-list {
+  display: flex;
   margin: 0;
   padding: 0;
+  list-style-type: none;
+}
+
+.filter-item {
+  width: 48px;
+  height: 48px;
+}
+
+.filter-item:not(:last-child) {
+  margin-right: 8px;
 }
 
 /* Catalog */
@@ -370,17 +386,36 @@ body {
   flex-direction: row;
   width: 1060px;
   margin: 0 auto;
+  margin-top: 30px;
 }
 
 .pagination-list {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  list-style-type: none;
   margin: 0 300px 0 0;
   padding: 0;
 }
 
 .pagination-item {
   width: 55px;
+  height: 55px;
+}
+
+.text-output {
+  display: flex;
+  align-items: center;
+}
+
+.text-output p {
+  margin: 0;
+  padding: 16px;
+}
+
+.text-output select {
+  margin: 0;
+  padding: 3px;
 }
 
 .subscribe-catalog {
@@ -396,6 +431,11 @@ body {
   margin: 0 auto;
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.subscribe-container-catalog {
+  padding-top: 73px;
+  padding-bottom: 140px;
 }
 
 .subscribe-catalog h2 {
@@ -563,6 +603,9 @@ body {
   padding-bottom: 56px;
 }
 
+
+
+
 .subscribe {
   font-size: 22px;
   line-height: 26px;
@@ -574,8 +617,9 @@ body {
   background-repeat: no-repeat;
 }
 
-.subscribe h2 {
-  margin: 0;
+.subscribe-container h2 {
+  width: 720px;
+  margin: 0 auto;
   padding-bottom: 29px;
   font-weight: 700;
   font-size: 30px;
@@ -584,7 +628,8 @@ body {
 }
 
 .subscribe-container p {
-  margin: 0;
+  width: 720px;
+  margin: 0 auto;
   padding-bottom: 46px;
 }
 
