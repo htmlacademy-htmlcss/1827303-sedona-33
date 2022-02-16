@@ -213,6 +213,7 @@ body {
 
 /* Filter */
 .catalog-filter {
+  padding-top: 30px;
   color: #FFFFFF;
   background-color: #83B3D3;
   background-image: url("../images/catalog-background.jpg");
@@ -224,11 +225,23 @@ body {
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 5px;
 }
 
 .breadcrumbs {
+  display: flex;
+  align-items: center;
   margin: 0;
   padding: 0;
+  list-style: none;
+}
+
+.breadcrumbs-item-current {
+  width: 12px;
+  height: 12px;
+  margin-right: 26px;
 }
 
 .breadcrumbs-link {
@@ -256,6 +269,7 @@ body {
 .catalog-filter-list {
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 .catalog-filter input {
@@ -265,6 +279,11 @@ body {
 
 .catalog-filter-range label {
   opacity: 0.3;
+}
+
+.button-filter-container {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Stock filter*/
