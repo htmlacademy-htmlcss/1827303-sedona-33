@@ -525,10 +525,20 @@ body {
 }
 
 .search-title {
+  width: 720px;
+  margin: 0 auto;
+  padding-top: 91px;
+  padding-bottom: 29px;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+}
+
+.search p {
+  width: 720px;
+  margin: 0 auto;
+  padding-bottom: 56px;
 }
 
 .subscribe {
