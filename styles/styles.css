@@ -577,7 +577,7 @@ body {
 
 .search {
   padding-top: 91px;
-  padding-bottom: 102px;
+  padding-bottom: 93px;
   font-weight: normal;
   font-size: 22px;
   line-height: 26px;
@@ -599,13 +599,14 @@ body {
 .search p {
   width: 720px;
   margin: 0 auto;
-  padding-bottom: 71px;
+  padding-bottom: 56px;
 }
 
 .search-link {
   width: 275px;
   height: 36px;
   padding: 15px 150px 9px;
+  margin: 0 auto;
   font-size: 20px;
   line-height: 36px;
   font-weight: 700;
@@ -615,10 +616,6 @@ body {
   text-decoration: none;
   text-transform: uppercase;
 }
-
-
-
-
 
 .subscribe {
   font-size: 22px;
