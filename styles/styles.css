@@ -582,22 +582,28 @@ body {
 }
 
 .footer-list-social {
-  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 72px;
+  margin-top: 49px;
+  margin-bottom: 53px;
+  margin-right: 61px;
   padding: 0;
+  list-style-type: none;
   max-width: 107px;
-  margin-right: 60px;
+}
+
+.footer-item {
+  display: block;
+  width: 20px;
+  height: 20px;
 }
 
 .footer-link-tel {
   width: 720px;
-}
-
-.footer-link-logo {
-  width: 115px;
-  margin-left: 50px;
-}
-
-.footer-link-tel {
+  height: 40px;
+  margin-top: 40px;
+  margin-bottom: 30px;
   font-size: 40px;
   line-height: 40px;
   text-align: center;
@@ -607,3 +613,9 @@ body {
   background-color: #FFFFFF;
 }
 
+.footer-link-logo {
+  width: 115px;
+  height: 34px;
+  margin-top: 42px;
+  margin-left: 50px;
+}
