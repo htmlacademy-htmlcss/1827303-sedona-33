@@ -375,9 +375,12 @@ body {
 .subscribe-container {
   width: 800px;
   margin: 0 auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .subscribe-catalog h2 {
+  margin: 0;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -553,10 +556,17 @@ body {
 }
 
 .subscribe h2 {
+  margin: 0;
+  padding-bottom: 29px;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+}
+
+.subscribe-container p {
+  margin: 0;
+  padding-bottom: 46px;
 }
 
 /* Footer */
