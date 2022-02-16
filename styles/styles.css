@@ -54,11 +54,6 @@ body {
   text-transform: uppercase;
 }
 
-.button-header {
-  font-size: 16px;
-  line-height: 20px;
-}
-
 .button-search {
   font-size: 20px;
   line-height: 36px;
@@ -150,8 +145,30 @@ body {
 }
 
 .navigation-user {
+  display: flex;
+  align-items: center;
   width: 264px;
   margin-left: auto;
+}
+
+.navigation-user .navigation-link {
+  display: block;
+  min-width: 22px;
+  min-height: 22px;
+  padding: 22px 10px;
+}
+
+.navigation-user .navigation-link-button {
+  width: 130px;
+  height: 20px;
+  padding: 8px 15px;
+  color: #FFFFFF;
+  background: #756257;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .navigation-link {
