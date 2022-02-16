@@ -47,6 +47,8 @@ body {
 .button {
   font-family: inherit;
   font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
   text-align: center;
   color: #FFFFFF;
   background-color: #756257;
@@ -54,10 +56,6 @@ body {
   text-transform: uppercase;
 }
 
-.button-search {
-  font-size: 20px;
-  line-height: 36px;
-}
 
 .button-social {
   color: #000000;
@@ -578,6 +576,8 @@ body {
 }
 
 .search {
+  padding-top: 91px;
+  padding-bottom: 102px;
   font-weight: normal;
   font-size: 22px;
   line-height: 26px;
@@ -589,7 +589,6 @@ body {
 .search-title {
   width: 720px;
   margin: 0 auto;
-  padding-top: 91px;
   padding-bottom: 29px;
   font-weight: 700;
   font-size: 30px;
@@ -600,8 +599,23 @@ body {
 .search p {
   width: 720px;
   margin: 0 auto;
-  padding-bottom: 56px;
+  padding-bottom: 71px;
 }
+
+.search-link {
+  width: 275px;
+  height: 36px;
+  padding: 15px 150px 9px;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #756257;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 
 
 
