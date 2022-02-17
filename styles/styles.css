@@ -441,13 +441,9 @@ body {
   padding-bottom: 140px;
 }
 
-.subscribe-catalog h2 {
-  margin: 0;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
+.subscribe-container-catalog .subscribe-catalog-title {
   color: #000000;
-  text-transform: uppercase;
+  padding-bottom: 46px;
 }
 
 .subscribe-catalog input{
