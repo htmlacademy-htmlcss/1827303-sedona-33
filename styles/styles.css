@@ -396,6 +396,7 @@ body {
   display: flex;
   flex-direction: row;
   width: 1060px;
+  height: 55px;
   margin: 0 auto;
 }
 
@@ -408,7 +409,7 @@ body {
   list-style-type: none;
 }
 
-.pagination-item {
+.pagination-item:not(:last-child) {
   margin-right: 8px;
 }
 
@@ -417,7 +418,17 @@ body {
   box-sizing: border-box;
   width: 55px;
   height: 55px;
+  padding: 14px;
+  font-size: 20px;
+  line-height: 26px;
+  background-color: #83B3D3;
 }
+
+.pagination-link-current {
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
 
 .text-output {
   display: flex;
