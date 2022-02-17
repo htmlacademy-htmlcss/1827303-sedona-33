@@ -377,11 +377,21 @@ body {
   background-color: #F2F2F2;
 }
 
+.show-more-container {
+  display: flex;
+  width: 1060px;
+  height: 120px;
+  margin: 0 auto;
+  align-items: center;
+}
+
 .pagination-show-more {
   display: block;
   width: 620px;
+  height: 60px;
+  padding: 17px 237px;
   margin: 0 auto;
-  padding: 0;
+  background-color: #83B3D3;
 }
 
 .pagination-container {
