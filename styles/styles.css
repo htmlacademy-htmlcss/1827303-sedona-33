@@ -57,13 +57,6 @@ body {
   border: none;
 }
 
-.button-send {
-  font-size: 16px;
-  line-height: 21px;
-  color: #FFFFFF;
-  background-color: #83B3D3;
-}
-
 .button-subscribe {
   width: 200px;
   height: 60px;
@@ -99,33 +92,18 @@ body {
 
 }
 
-
-
-
-
-/* Обратить внимание */
-
-.hotel-link {
-  font-size: 16px;
-  line-height: 21px;
-}
-
-
-
-
-
 .button-catalog {
-  align-items: center;
+  display: block;
+  box-sizing: border-box;
+  width: 132px;
+  height: 37px;
+  padding: 9px 0;
+  background-color: #83B3D3;
 }
 
 .button-catalog-current {
   color: #FFFFFF;
   background-color: #7DB54F;
-}
-
-.button-pagination-current {
-  color: #000000;
-  background-color: #F2F2F2;
 }
 
 /* Header */
@@ -377,6 +355,14 @@ body {
   line-height: 31px;
   color: #000000;
   background-color: inherit;
+}
+
+.hotel-link {
+  display: block;
+  box-sizing: border-box;
+  width: 132px;
+  height: 37px;
+  padding: 9px 0;
 }
 
 .rating {
