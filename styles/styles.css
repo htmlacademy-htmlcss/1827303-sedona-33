@@ -402,18 +402,22 @@ body {
 .pagination-list {
   display: flex;
   flex-direction: row;
-  /* align-items: center; */
-  list-style-type: none;
-  margin: 0 300px 0 0;
+  margin: 0;
+  margin-right: 300px;
   padding: 0;
+  list-style-type: none;
 }
 
 .pagination-item {
+  margin-right: 8px;
+}
+
+.pagination-link {
+  display: block;
+  box-sizing: border-box;
   width: 55px;
   height: 55px;
 }
-
-
 
 .text-output {
   display: flex;
