@@ -404,7 +404,6 @@ body {
   display: flex;
   flex-direction: row;
   margin: 0;
-  margin-right: 300px;
   padding: 0;
   list-style-type: none;
 }
@@ -429,22 +428,26 @@ body {
   background-color: #F2F2F2;
 }
 
-
 .text-output {
   display: flex;
   align-items: center;
+  margin-left: auto;
 }
 
 .text-output p {
+  width: 175px;
   margin: 0;
-  padding: 16px;
+  margin-right: 51px;
+  padding: 0;
 }
 
 .text-output select {
+  width: 160px;
   margin: 0;
-  padding: 3px;
+  padding: 0;
 }
 
+/* Subscribe */
 .subscribe-catalog {
   font-size: 22px;
   line-height: 26px;
