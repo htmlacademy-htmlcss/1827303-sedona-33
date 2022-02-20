@@ -340,10 +340,15 @@ body {
 }
 
 .catalog-list {
+  display: grid;
+  grid-template-columns: repeat(3, 340px);
+  column-gap: 20px;
+  row-gap: 10px;
   width: 1060px;
   margin: 0 auto;
   margin-bottom: 34px;
   padding: 0;
+  list-style-type: none;
 }
 
 .catalog-item {
