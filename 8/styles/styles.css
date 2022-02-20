@@ -340,10 +340,15 @@ body {
 }
 
 .catalog-list {
+  display: grid;
+  grid-template-columns: repeat(3, 340px);
+  column-gap: 20px;
+  row-gap: 10px;
   width: 1060px;
   margin: 0 auto;
   margin-bottom: 34px;
   padding: 0;
+  list-style-type: none;
 }
 
 .catalog-item {
@@ -522,8 +527,9 @@ body {
 
 /* Advantages */
 .advantage-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  grid-template-rows: repeat(4, 384px);
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -535,25 +541,43 @@ body {
   background-color: #FFFFFF;
 }
 
-.advantage-list .advantage-item:nth-of-type(1),
+.advantage-list .advantage-item:nth-of-type(2) {
+  grid-column: 2 / 4;
+}
+
+.advantage-list .advantage-item:nth-of-type(4) {
+  grid-column: 1 / 3;
+}
+
 .advantage-list .advantage-item:nth-of-type(3) {
+  display: grid;
+  grid-column: 1 / 4;
+}
+
+.advantage-list .advantage-item:nth-of-type(1),
+.advantage-list .advantage-item:nth-of-type(5) {
   color: #FFFFFF;
   background-color: #83B3D3;
 }
 
-.advantage-list li:nth-of-type(4),
-.advantage-list li:nth-of-type(6) {
+.advantage-list li:nth-of-type(6),
+.advantage-list li:nth-of-type(8) {
   color: #333333;
   background-color: rgba(131, 179, 211, 0.12);
 }
 
-.advantage-list li:nth-of-type(5) {
+.advantage-list li:nth-of-type(7) {
   color: #333333;
   background-color: rgba(131, 179, 211, 0.2);
 }
 
 .advantage-item {
-  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.advantage-item img{
+  display: block;
 }
 
 .advantage-title-photo {
@@ -575,21 +599,37 @@ body {
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
+  padding-top: 97px;
+  padding-bottom: 81px;
+  margin: 0;
+}
+
+.advantage-descriprion {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.advantage-item:nth-of-type(1) .advantage-descriprion,
+.advantage-item:nth-of-type(5) .advantage-descriprion  {
+  width: 220px;
+  margin: 0 auto;
 }
 
 .advantage-sub-list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
 .advantage-subitem {
+  display: flex;
+  flex-direction: column;
   width: 400px;
   color: #333333;
   background-color: #FFFFFF;
+  padding-top: 184px;
 }
 
 .advantage-sub-list li:nth-child(1),
@@ -605,6 +645,9 @@ body {
   text-transform: uppercase;
   color: #000000;
   background-color: none;
+  width: 250px;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 .search {
