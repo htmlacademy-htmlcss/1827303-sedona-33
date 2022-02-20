@@ -600,7 +600,14 @@ body {
 }
 
 .advantage-descriprion {
-  margin: 0;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.advantage-item:nth-of-type(1) .advantage-descriprion,
+.advantage-item:nth-of-type(5) .advantage-descriprion  {
+  width: 220px;
+  margin: 0 auto;
 }
 
 .advantage-sub-list {
@@ -617,6 +624,7 @@ body {
   width: 400px;
   color: #333333;
   background-color: #FFFFFF;
+  padding-top: 184px;
 }
 
 .advantage-sub-list li:nth-child(1),
@@ -632,6 +640,9 @@ body {
   text-transform: uppercase;
   color: #000000;
   background-color: none;
+  width: 250px;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 .search {
