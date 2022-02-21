@@ -56,7 +56,7 @@
 
           <form class="catalog-filter-form" action="https://echo.htmlacademy.ru/" method="post">
             <div class="filter-container">
-              <fieldset class="catalog-filter-group">
+              <fieldset class="catalog-filter-group filter-container-services">
                 <legend class="catalog-filter-title">Инфраструктура:</legend>
                 <ul class="catalog-filter-list">
                   <li class="catalog-filter-item">
@@ -80,7 +80,7 @@
                 </ul>
               </fieldset>
 
-                <fieldset class="catalog-filter-group">
+                <fieldset class="catalog-filter-group filter-container-building">
                   <legend class="catalog-filter-title">Тип жилья:</legend>
                   <ul class="catalog-filter-list">
                     <li class="catalog-filter-item">
@@ -104,22 +104,28 @@
                   </ul>
                 </fieldset>
 
-              <fieldset class="catalog-filter-range">
-                <legend class="catalog-filter-title">Стоимость, ₽:</legend>
+              <fieldset class="catalog-filter-group filter-container-range">
+                <legend class="catalog-filter-title catalog-filter-price">Стоимость, ₽:</legend>
 
-                <label for="segment-min">от</label>
-                  <input class="range-segment-min" type="text" id="segment-min" placeholder="0">
+                <div class="filter-container-input">
+                  <div class="data-input">
+                    <div class="range-input">
+                      <label for="segment-min">от</label>
+                        <input class="range-segment-min" type="text" id="segment-min" placeholder="0">
 
-                <label for="segment-max">до</label>
-                  <input class="range-segment-max" type="text" id="segment-max" placeholder="9000">
+                      <label for="segment-max">до</label>
+                        <input class="range-segment-max" type="text" id="segment-max" placeholder="9000">
+                    </div>
 
-                <input type="range" name="price" min="0" max="10000" value="9000">
+                    <input type="range" name="price" min="0" max="10000" value="9000">
+                  </div>
+
+                  <div class="button-filter-container">
+                    <button class="button button-on" type="submit">Применить</button>
+                    <button class="button button-clear" type="reset">Сбросить</button>
+                  </div>
+                </div>
               </fieldset>
-
-              <div class="button-filter-container">
-                <button class="button button-on" type="submit">Применить</button>
-                <button class="button button-clear" type="reset">Сбросить</button>
-              </div>
             </div>
           </form>
         </section>

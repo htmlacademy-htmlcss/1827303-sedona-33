@@ -209,8 +209,10 @@ body {
 
 /* Filter */
 .catalog-filter {
-  padding-top: 30px;
+  padding-top: 35px;
   padding-bottom: 83px;
+  padding-left: 72px;
+  padding-right: 72px;
   color: #FFFFFF;
   background-color: #83B3D3;
   background-image: url("../images/catalog-background.jpg");
@@ -224,7 +226,7 @@ body {
   line-height: 78px;
   margin: 0;
   padding: 0;
-  padding-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .breadcrumbs {
@@ -255,13 +257,44 @@ body {
 }
 
 .catalog-filter-group {
-  width: 150px;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.filter-container-services {
+  min-width: 150px;
+  margin-right: 68px;
+}
+
+.filter-container-building {
+  min-width: 145px;
+  margin-right: auto;
+}
+
+.filter-container-input {
+  display: flex;
 }
 
 .catalog-filter-title {
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.catalog-filter-price {
+  margin-bottom: 34px;
+}
+
+.data-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.range-input {
+  margin-bottom: 32px;
 }
 
 .catalog-filter-list {
@@ -270,12 +303,12 @@ body {
   list-style-type: none;
 }
 
-.catalog-filter input {
+.filter-container-range input {
   color: inherit;
   background-color: #83B3D3;
 }
 
-.catalog-filter-range label {
+.filter-container-range label {
   opacity: 0.3;
 }
 
