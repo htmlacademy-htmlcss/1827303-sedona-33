@@ -115,8 +115,11 @@ body {
 
 .navigation {
   display: flex;
-  width: 1060px;
+  width: 1200px;
+  box-sizing: border-box;
   margin: 0 auto;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .header-logo {
