@@ -210,7 +210,7 @@ body {
 /* Filter */
 .catalog-filter {
   padding-top: 35px;
-  padding-bottom: 83px;
+  padding-bottom: 71px;
   padding-left: 72px;
   padding-right: 72px;
   color: #FFFFFF;
@@ -291,6 +291,7 @@ body {
 .data-input {
   display: flex;
   flex-direction: column;
+  margin-right: 81px;
 }
 
 .range-input {
@@ -321,9 +322,10 @@ body {
 .inner-header-filter {
   display: flex;
   align-items: center;
-  width: 1060px;
-  margin: 0 auto;
-  margin-top: 48px;
+  width: 1200px;
+  box-sizing: border-box;
+  padding: 0 70px;
+  margin-top: 44px;
   margin-bottom: 53px;
   font-size: 18px;
   line-height: 23px;
@@ -334,7 +336,7 @@ body {
 .found {
   width: 340px;
   margin: 0;
-  margin-right: 192px;
+  margin-right: auto;
   font-weight: 700;
   font-size: 30px;
   line-height: 39px;
@@ -434,7 +436,7 @@ body {
   display: block;
   width: 620px;
   height: 60px;
-  padding: 17px 237px;
+  padding: 17px 17px;
   margin: 0 auto;
   font-size: 20px;
   line-height: 26px;
