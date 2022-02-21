@@ -96,7 +96,7 @@ body {
 .button-catalog {
   display: block;
   box-sizing: border-box;
-  width: 132px;
+  width: 140px;
   height: 37px;
   padding: 9px 0;
   background-color: #83B3D3;
@@ -382,10 +382,8 @@ body {
 }
 
 .catalog-list {
-  display: grid;
-  grid-template-columns: repeat(3, 340px);
-  column-gap: 20px;
-  row-gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
   width: 1060px;
   margin: 0 auto;
   margin-bottom: 34px;
@@ -394,7 +392,18 @@ body {
 }
 
 .catalog-item {
+  display: flex;
+  flex-direction: column;
   width: 340px;
+  min-height: 438px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-right: 20px;
+  justify-content: space-between;
+}
+
+.catalog-list .catalog-item:nth-child(3n) {
+  margin-right: 0;
 }
 
 .item-title {
@@ -403,17 +412,55 @@ body {
   line-height: 31px;
   color: #000000;
   background-color: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.catalog-content-wrapper {
+  display: flex;
+}
+
+.catalog-content-wrapper p {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper-info {
+  justify-content: space-between;
+}
+
+.house {
+  width: 133px;
+}
+
+.price {
+  width: 143px;
+}
+
+.wrapper-more {
+  justify-content: space-between;
+}
+
+.wrapper-about {
+  justify-content: space-between;
 }
 
 .hotel-link {
   display: block;
   box-sizing: border-box;
-  width: 132px;
+  width: 133px;
   height: 37px;
   padding: 9px 0;
 }
 
-.rating {
+.icons-star {
+  align-self: center;
+}
+
+.catalog-item .rating {
+  width: 160px;
+  padding-top: 9px;
+  padding-bottom: 10px;
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
