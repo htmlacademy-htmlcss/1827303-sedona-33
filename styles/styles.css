@@ -253,7 +253,8 @@ body {
 }
 
 .filter-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: min-content max-content auto;
 }
 
 .catalog-filter-group {
@@ -263,17 +264,17 @@ body {
 }
 
 .filter-container-services {
-  min-width: 150px;
+  max-width: 200px;
   margin-right: 68px;
 }
 
 .filter-container-building {
-  min-width: 145px;
+  max-width: 200px;
   margin-right: auto;
 }
 
-.filter-container-input {
-  display: flex;
+.filter-container-range {
+  justify-self: end;
 }
 
 .catalog-filter-title {
@@ -284,40 +285,59 @@ body {
   margin-bottom: 30px;
 }
 
+.filter-container-range .catalog-filter-title {
+  margin-bottom: 34px;
+}
+
 .catalog-filter-list {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
-.catalog-filter-price {
-  margin-bottom: 34px;
+.catalog-filter-item:not(:last-child) {
+  margin-bottom: 13px;
+}
+
+.catalog-filter-item label {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.filter-container-input {
+  display: grid;
+  grid-template-columns: 288px 160px;
+  column-gap: 80px;
 }
 
 .data-input {
   display: flex;
   flex-direction: column;
-  margin-right: 81px;
-}
-
-.range-input {
-  /* display: grid; */
-  /* grid-template-columns: 20px 150px 20px 150px; */
-  margin-bottom: 32px;
-}
-
-.filter-container-range input {
-  color: inherit;
-  background-color: #83B3D3;
-}
-
-.filter-container-range label {
-  opacity: 0.3;
 }
 
 .button-filter-container {
   display: flex;
   flex-direction: column;
+}
+
+.range-wrapper {
+  display: grid;
+  grid-template-columns: 144px 144px;
+  margin-bottom: 32px;
+}
+
+.range-segment-min {
+  grid-column: 1 / 3;
+}
+
+.filter-container-range input {
+  color: inherit;
+  background-color: transparent;
+}
+
+.filter-container-range label {
+  z-index: 1;
+  opacity: 0.3;
 }
 
 /* Stock filter*/
