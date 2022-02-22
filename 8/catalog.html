@@ -57,7 +57,7 @@
 
           <form class="catalog-filter-form" action="https://echo.htmlacademy.ru/" method="post">
             <div class="filter-container">
-              <fieldset class="catalog-filter-group">
+              <fieldset class="catalog-filter-group filter-container-services">
                 <legend class="catalog-filter-title">Инфраструктура:</legend>
                 <ul class="catalog-filter-list">
                   <li class="catalog-filter-item">
@@ -81,7 +81,7 @@
                 </ul>
               </fieldset>
 
-                <fieldset class="catalog-filter-group">
+                <fieldset class="catalog-filter-group filter-container-building">
                   <legend class="catalog-filter-title">Тип жилья:</legend>
                   <ul class="catalog-filter-list">
                     <li class="catalog-filter-item">
@@ -105,22 +105,28 @@
                   </ul>
                 </fieldset>
 
-              <fieldset class="catalog-filter-range">
-                <legend class="catalog-filter-title">Стоимость, ₽:</legend>
+              <fieldset class="catalog-filter-group filter-container-range">
+                <legend class="catalog-filter-title catalog-filter-price">Стоимость, ₽:</legend>
 
-                <label for="segment-min">от</label>
-                  <input class="range-segment-min" type="text" id="segment-min" placeholder="0">
+                <div class="filter-container-input">
+                  <div class="data-input">
+                    <div class="range-input">
+                      <label for="segment-min">от</label>
+                        <input class="range-segment-min" type="text" id="segment-min" placeholder="0">
 
-                <label for="segment-max">до</label>
-                  <input class="range-segment-max" type="text" id="segment-max" placeholder="9000">
+                      <label for="segment-max">до</label>
+                        <input class="range-segment-max" type="text" id="segment-max" placeholder="9000">
+                    </div>
 
-                <input type="range" name="price" min="0" max="10000" value="9000">
+                    <input type="range" name="price" min="0" max="10000" value="9000">
+                  </div>
+
+                  <div class="button-filter-container">
+                    <button class="button button-on" type="submit">Применить</button>
+                    <button class="button button-clear" type="reset">Сбросить</button>
+                  </div>
+                </div>
               </fieldset>
-
-              <div class="button-filter-container">
-                <button class="button button-on" type="submit">Применить</button>
-                <button class="button button-clear" type="reset">Сбросить</button>
-              </div>
             </div>
           </form>
         </section>
@@ -159,60 +165,84 @@
             <li class="catalog-item">
               <img class="catalog-item-photo" src="images/hotel-1.jpg" width="299" height="206" alt="Гостиница на горе.">
               <h3 class="item-title">Amara Resort & Spa</h3>
-              <p>Гостиница</p>
-              <p>От 4000 ₽</p>
-              <a class="button hotel-link" href="#">Подробнее</a>
-              <button class="button button-catalog" type="button">В избранное</button>
-              <div class="icons-star">
-                <img class="star" src="images/svg/star.svg" alt="Звезда.">
-                <img class="star" src="images/svg/star.svg" alt="Звезда.">
-                <img class="star" src="images/svg/star.svg" alt="Звезда.">
-                <img class="star" src="images/svg/star.svg" alt="Звезда.">
+              <div class="catalog-content-wrapper wrapper-info">
+                <p class="house">Гостиница</p>
+                <p class="price">От 4000 ₽</p>
               </div>
+              <div class="catalog-content-wrapper wrapper-more">
+                <a class="button hotel-link" href="#">Подробнее</a>
+                <button class="button button-catalog" type="button">В избранное</button>
+              </div>
+              <div class="catalog-content-wrapper wrapper-about">
+                <div class="icons-star">
+                  <img class="star" src="images/svg/star.svg" alt="Звезда.">
+                  <img class="star" src="images/svg/star.svg" alt="Звезда.">
+                  <img class="star" src="images/svg/star.svg" alt="Звезда.">
+                  <img class="star" src="images/svg/star.svg" alt="Звезда.">
+                </div>
                 <p class="rating">Рейтинг: 8,5</p>
+              </div>
             </li>
 
             <li class="catalog-item">
               <img class="catalog-item-photo" src="images/hotel-2.jpg" width="299" height="206" alt="Гостиница у горы.">
               <h3 class="item-title">Desert Quail Inn</h3>
-              <p>Гостиница</p>
-              <p>От 3000 ₽</p>
-              <a class="button hotel-link" href="#">Подробнее</a>
-              <button class="button button-catalog" type="button">В избранное</button>
-              <div class="icons-star">
-                <img class="star" src="images/svg/star.svg" alt="Звезда.">
-                <img class="star" src="images/svg/star.svg" alt="Звезда.">
-                <img class="star" src="images/svg/star.svg" alt="Звезда.">
+              <div class="catalog-content-wrapper wrapper-info">
+                <p class="house">Гостиница</p>
+                <p class="price">От 3000 ₽</p>
               </div>
-              <p class="rating">Рейтинг: 8,9</p>
+              <div class="catalog-content-wrapper wrapper-more">
+                <a class="button hotel-link" href="#">Подробнее</a>
+                <button class="button button-catalog" type="button">В избранное</button>
+              </div>
+              <div class="catalog-content-wrapper wrapper-about">
+                <div class="icons-star">
+                  <img class="star" src="images/svg/star.svg" alt="Звезда.">
+                  <img class="star" src="images/svg/star.svg" alt="Звезда.">
+                  <img class="star" src="images/svg/star.svg" alt="Звезда.">
+                </div>
+                <p class="rating">Рейтинг: 8,9</p>
+              </div>
             </li>
 
             <li class="catalog-item">
               <img class="catalog-item-photo" src="images/hotel-3.jpg" width="299" height="206" alt="Гостиница в горе.">
               <h3 class="item-title">Villas at Poco Diablo</h3>
-              <p>Гостиница</p>
-              <p>От 2000 ₽</p>
-              <a class="button hotel-link" href="#">Подробнее</a>
-              <button class="button button-catalog button-catalog-current" type="button">В избранном</button>
-              <div class="icons-star">
-                <img class="star" src="images/svg/star.svg" alt="Звезда.">
-                <img class="star" src="images/svg/star.svg" alt="Звезда.">
+              <div class="catalog-content-wrapper wrapper-info">
+                <p class="house">Гостиница</p>
+                <p class="price">От 2000 ₽</p>
               </div>
-              <p class="rating">Рейтинг: 9,2</p>
+              <div class="catalog-content-wrapper wrapper-more">
+                <a class="button hotel-link" href="#">Подробнее</a>
+                <button class="button button-catalog button-catalog-current" type="button">В избранном</button>
+              </div>
+              <div class="catalog-content-wrapper wrapper-about">
+                <div class="icons-star">
+                  <img class="star" src="images/svg/star.svg" alt="Звезда.">
+                  <img class="star" src="images/svg/star.svg" alt="Звезда.">
+                </div>
+                <p class="rating">Рейтинг: 9,2</p>
+              </div>
             </li>
 
             <li class="catalog-item">
               <img class="catalog-item-photo" src="images/hotel-4.jpg" width="299" height="206" alt="Гостиница в лесу.">
               <h3 class="item-title">GreenTree Inn</h3>
-              <p>Гостиница</p>
-              <p>От 3000 ₽</p>
-              <a class="button hotel-link" href="#">Подробнее</a>
-              <button class="button button-catalog" type="button">В избранное</button>
-              <div class="icons-star">
-                <img class="star" src="images/svg/star.svg" alt="Звезда.">
-                <img class="star" src="images/svg/star.svg" alt="Звезда.">
+              <div class="catalog-content-wrapper wrapper-info">
+                <p class="house">Гостиница</p>
+                <p class="price">От 3000 ₽</p>
               </div>
-              <p class="rating">Рейтинг: 9,2</p>
+              <div class="catalog-content-wrapper wrapper-more">
+                <a class="button hotel-link" href="#">Подробнее</a>
+                <button class="button button-catalog" type="button">В избранное</button>
+              </div>
+              <div class="catalog-content-wrapper wrapper-about">
+                <div class="icons-star">
+                  <img class="star" src="images/svg/star.svg" alt="Звезда.">
+                  <img class="star" src="images/svg/star.svg" alt="Звезда.">
+                </div>
+                <p class="rating">Рейтинг: 9,2</p>
+              </div>
             </li>
           </ul>
 
