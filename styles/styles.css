@@ -284,6 +284,12 @@ body {
   margin-bottom: 30px;
 }
 
+.catalog-filter-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 .catalog-filter-price {
   margin-bottom: 34px;
 }
@@ -295,13 +301,9 @@ body {
 }
 
 .range-input {
+  /* display: grid; */
+  /* grid-template-columns: 20px 150px 20px 150px; */
   margin-bottom: 32px;
-}
-
-.catalog-filter-list {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
 }
 
 .filter-container-range input {
