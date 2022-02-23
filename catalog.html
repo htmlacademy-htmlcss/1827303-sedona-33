@@ -108,22 +108,22 @@
                 <legend class="catalog-filter-title">Стоимость, ₽:</legend>
 
                 <div class="filter-container-input">
-                  <div class="data-input">
-                    <div class="range-wrapper">
+                  <div class="range-wrapper">
+                    <div class="range-min">
                       <label for="segment-min">от</label>
-                        <input class="range-segment-min" type="text" id="segment-min" placeholder="0">
-
-                      <label for="segment-max">до</label>
-                        <input class="range-segment-max" type="text" id="segment-max" placeholder="9000">
+                      <input class="range-segment-min" type="text" id="segment-min" placeholder="0">
                     </div>
 
-                    <input type="range" name="price" min="0" max="10000" value="9000">
+                    <div class="range-max">
+                      <label for="segment-max">до</label>
+                      <input class="range-segment-max" type="text" id="segment-max" placeholder="9000">
+                    </div>
                   </div>
 
-                  <div class="button-filter-container">
-                    <button class="button button-on" type="submit">Применить</button>
-                    <button class="button button-clear" type="reset">Сбросить</button>
-                  </div>
+                  <input type="range" name="price" min="0" max="10000" value="9000">
+
+                  <button class="button button-on" type="submit">Применить</button>
+                  <button class="button button-clear" type="reset">Сбросить</button>
                 </div>
               </fieldset>
             </div>
