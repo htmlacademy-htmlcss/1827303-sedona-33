@@ -71,17 +71,19 @@ body {
 
 .button-on {
   display: block;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
   width: 160px;
   height: 48px;
   margin: 0;
   padding: 0;
   color: #FFFFFF;
   background-color: #83B3D3;
-  margin-bottom: 20px;
 }
 
 .button-clear {
   display: block;
+  grid-column: 2 / 3;
   width: 160px;
   height: 23px;
   margin: 0;
@@ -253,7 +255,8 @@ body {
 }
 
 .filter-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: min-content max-content auto;
 }
 
 .catalog-filter-group {
@@ -263,17 +266,17 @@ body {
 }
 
 .filter-container-services {
-  min-width: 150px;
+  max-width: 200px;
   margin-right: 68px;
 }
 
 .filter-container-building {
-  min-width: 145px;
+  max-width: 200px;
   margin-right: auto;
 }
 
-.filter-container-input {
-  display: flex;
+.filter-container-range {
+  justify-self: end;
 }
 
 .catalog-filter-title {
@@ -284,40 +287,57 @@ body {
   margin-bottom: 30px;
 }
 
+.filter-container-range .catalog-filter-title {
+  margin-bottom: 34px;
+}
+
 .catalog-filter-list {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
-.catalog-filter-price {
-  margin-bottom: 34px;
+.catalog-filter-item:not(:last-child) {
+  margin-bottom: 13px;
 }
 
-.data-input {
+.catalog-filter-item label {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.filter-container-input {
+  display: grid;
+  grid-template-columns: 288px 160px;
+  gap: 20px 80px;
+}
+
+.filter-container-input input {
+  grid-column: 1 / 2;
+  margin: 0;
+}
+
+.range-wrapper {
+  grid-column: 1 / 2;
+}
+
+.range-container {
+  display: grid;
+  grid-template-columns: 144px 144px;
+}
+
+.range {
   display: flex;
   flex-direction: column;
-  margin-right: 81px;
 }
 
-.range-input {
-  /* display: grid; */
-  /* grid-template-columns: 20px 150px 20px 150px; */
-  margin-bottom: 32px;
-}
-
-.filter-container-range input {
-  color: inherit;
-  background-color: #83B3D3;
-}
-
-.filter-container-range label {
+.range-wrapper label {
   opacity: 0.3;
 }
 
-.button-filter-container {
-  display: flex;
-  flex-direction: column;
+.range-wrapper input {
+  color: inherit;
+  background-color: transparent;
 }
 
 /* Stock filter*/
