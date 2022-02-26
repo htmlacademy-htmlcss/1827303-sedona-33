@@ -860,6 +860,7 @@ body {
   display: flex;
   width: 1200px;
   box-sizing: border-box;
+  justify-content: space-between;
   margin: 0 auto;
   padding: 40px 72px 30px;
 }
@@ -899,6 +900,5 @@ body {
 .footer-link-logo {
   width: 115px;
   height: 34px;
-  margin-top: 42px;
-  margin-left: 50px;
+  margin-top: 2px;
 }
