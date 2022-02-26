@@ -862,12 +862,13 @@ body {
   box-sizing: border-box;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 40px 72px 30px;
+  padding: 40px 72px;
 }
 
 .footer-list-social {
   display: flex;
   flex-wrap: wrap;
+  margin: 0;
   margin-top: 9px;
   padding: 0;
   list-style-type: none;
