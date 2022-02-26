@@ -617,17 +617,17 @@ body {
 
 .first-screen-title {
   text-align: center;
+  padding-top: 63px;
+  padding-bottom: 80px;
 }
 
 .first-screen-title p {
   width: 720px;
   margin: 0 auto;
-  padding-bottom: 80px;
 }
 
 .first-screen-title .first-screen-subtitle {
-  padding-top: 63px;
-  padding-bottom: 31px;
+  margin-bottom: 31px;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
