@@ -22,6 +22,7 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
+  align-items: center;
   min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-style: normal;
@@ -617,17 +618,17 @@ body {
 
 .first-screen-title {
   text-align: center;
+  padding-top: 63px;
+  padding-bottom: 80px;
 }
 
 .first-screen-title p {
   width: 720px;
   margin: 0 auto;
-  padding-bottom: 80px;
 }
 
 .first-screen-title .first-screen-subtitle {
-  padding-top: 63px;
-  padding-bottom: 31px;
+  margin-bottom: 31px;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -687,13 +688,7 @@ body {
 .contant-wrapper {
   display: flex;
   flex-direction: column;
-  padding-top: 97px;
-  padding-bottom: 108px;
-}
-
-.advantage-item:nth-of-type(1) .contant-wrapper,
-.advantage-item:nth-of-type(3) .contant-wrapper {
-  padding-bottom: 87px;
+  justify-content: center;
 }
 
 .advantage-item {
@@ -712,7 +707,7 @@ body {
   line-height: 28px;
   text-transform: uppercase;
   margin: 0;
-  padding-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 .advantage-title-photo {
@@ -787,9 +782,9 @@ body {
 }
 
 .search-title {
-  width: 720px;
+  max-width: 720px;
   margin: 0 auto;
-  padding-bottom: 29px;
+  margin-bottom: 29px;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -799,14 +794,13 @@ body {
 .search p {
   width: 720px;
   margin: 0 auto;
-  padding-bottom: 56px;
+  margin-bottom: 56px;
 }
 
 .search-link {
   display: block;
-  width: 545px;
-  min-height: 36px;
-  padding: 15px 15px 9px;
+  width: 575px;
+  padding: 15px 0;
   margin: 0 auto;
   font-size: 20px;
   line-height: 36px;
@@ -865,16 +859,17 @@ body {
 .page-footer-container {
   display: flex;
   width: 1200px;
+  box-sizing: border-box;
+  justify-content: space-between;
   margin: 0 auto;
+  padding: 40px 72px;
 }
 
 .footer-list-social {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 72px;
-  margin-top: 49px;
-  margin-bottom: 53px;
-  margin-right: 61px;
+  margin: 0;
+  margin-top: 9px;
   padding: 0;
   list-style-type: none;
   max-width: 107px;
@@ -892,7 +887,7 @@ body {
 }
 
 .footer-link-tel {
-  margin: 35px auto;
+  max-width: 720px;
   padding: 5px 10px;
   font-size: 40px;
   line-height: 40px;
@@ -906,6 +901,5 @@ body {
 .footer-link-logo {
   width: 115px;
   height: 34px;
-  margin-top: 42px;
-  margin-left: 50px;
+  margin-top: 2px;
 }
