@@ -22,6 +22,7 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
+  align-items: center;
   min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-style: normal;
@@ -781,9 +782,9 @@ body {
 }
 
 .search-title {
-  width: 720px;
+  max-width: 720px;
   margin: 0 auto;
-  padding-bottom: 29px;
+  margin-bottom: 29px;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -793,14 +794,13 @@ body {
 .search p {
   width: 720px;
   margin: 0 auto;
-  padding-bottom: 56px;
+  margin-bottom: 56px;
 }
 
 .search-link {
   display: block;
-  width: 545px;
-  min-height: 36px;
-  padding: 15px 15px 9px;
+  width: 575px;
+  padding: 15px 0;
   margin: 0 auto;
   font-size: 20px;
   line-height: 36px;
@@ -859,16 +859,15 @@ body {
 .page-footer-container {
   display: flex;
   width: 1200px;
+  box-sizing: border-box;
   margin: 0 auto;
+  padding: 40px 72px 30px;
 }
 
 .footer-list-social {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 72px;
-  margin-top: 49px;
-  margin-bottom: 53px;
-  margin-right: 61px;
+  margin-top: 9px;
   padding: 0;
   list-style-type: none;
   max-width: 107px;
@@ -886,7 +885,7 @@ body {
 }
 
 .footer-link-tel {
-  margin: 35px auto;
+  max-width: 720px;
   padding: 5px 10px;
   font-size: 40px;
   line-height: 40px;
