@@ -405,9 +405,10 @@ body {
 }
 
 .catalog-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   width: 1060px;
+  grid-template-columns: repeat(3, 340px);
+  gap: 10px 20px;
   margin: 0 auto;
   margin-bottom: 34px;
   padding: 0;
@@ -417,16 +418,10 @@ body {
 .catalog-item {
   display: flex;
   flex-direction: column;
-  width: 340px;
   min-height: 438px;
   padding: 20px;
   box-sizing: border-box;
-  margin-right: 20px;
   justify-content: space-between;
-}
-
-.catalog-list .catalog-item:nth-child(3n) {
-  margin-right: 0;
 }
 
 .item-title {
