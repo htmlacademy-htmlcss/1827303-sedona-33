@@ -21,6 +21,7 @@
             <a class="navigation-link" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
+
         <ul class="navigation-list navigation-user">
           <li class="navigation-item">
             <a class="navigation-link" href="#">
@@ -33,7 +34,7 @@
             </a>
           </li>
           <li class="navigation-item">
-            <a class="button button-header" href="#">Хочу сюда!</a>
+            <a class="navigation-link navigation-link-button" href="#">Хочу сюда!</a>
           </li>
         </ul>
       </nav>
@@ -62,42 +63,52 @@
           <ol class="advantage-list">
 
             <li class="advantage-item">
-              <h3 class="advantage-title-photo">Настоящий городок</h3>
-              <p class="advantage-descriprion">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+              <div class="contant-wrapper">
+                <h3 class="advantage-title advantage-title-photo">Настоящий <br> городок</h3>
+                <p class="advantage-descriprion">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+              </div>
             </li>
 
             <li class="advantage-item">
               <ul class="advantage-sub-list">
                 <li class="advantage-subitem">
                   <h4 class="advantage-subtitle">Жильё</h4>
-                  <p class="advantage-sub-descriprion">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+                  <p class="advantage-descriprion">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
                 </li>
                 <li class="advantage-subitem">
                   <h4 class="advantage-subtitle">Еда</h4>
-                  <p class="advantage-sub-descriprion">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+                  <p class="advantage-descriprion">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
                 </li>
                 <li class="advantage-subitem">
                   <h4 class="advantage-subtitle">Сувениры</h4>
-                  <p class="advantage-sub-descriprion">Не только китайского, но и настоящего местного производства!</p>
+                  <p class="advantage-descriprion">Не только китайского, но и настоящего местного производства!</p>
                 </li>
               </ul>
             </li>
 
             <li  class="advantage-item">
-              <h3 class="advantage-title-photo">Там есть мост дьявола</h3>
-              <p class="advantage-descriprion">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+              <div class="contant-wrapper">
+                <h3 class="advantage-title advantage-title-photo">Там есть <br> мост дьявола</h3>
+                <p class="advantage-descriprion">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+              </div>
             </li>
             <li  class="advantage-item">
-              <h3 class="advantage-title">Небольшая площадь</h3>
-              <p class="advantage-descriprion">Все достопримечательности находятся очень близко</p>
+              <div class="contant-wrapper">
+                <h3 class="advantage-title">Небольшая <br> площадь</h3>
+                <p class="advantage-descriprion">Все достопримечательности находятся очень близко</p>
+              </div>
             </li>
             <li  class="advantage-item">
-              <h3 class="advantage-title">Красивая дорога</h3>
+              <div class="contant-wrapper">
+                <h3 class="advantage-title">Красивая <br> дорога</h3>
               <p class="advantage-descriprion">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+              </div>
             </li>
             <li  class="advantage-item">
-              <h3 class="advantage-title">Мало туристов</h3>
-              <p class="advantage-descriprion">Большинство едет в Гранд Каньон и толпится там</p>
+              <div class="contant-wrapper">
+                <h3 class="advantage-title">Мало <br> туристов</h3>
+                <p class="advantage-descriprion">Большинство едет в Гранд Каньон и толпится там</p>
+              </div>
             </li>
           </ol>
         </section>
@@ -105,16 +116,20 @@
         <section class="search">
           <h2 class="search-title">Заинтересовались?</h2>
           <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-          <a class="search-link button button-search" href="catalog.html">Поиск гостиницы в Седоне</a>
+          <a class="search-link button" href="catalog.html">Поиск гостиницы в Седоне</a>
         </section>
 
         <section class="subscribe">
-          <h2 class="visually-hidden">Подпишитесь на рассылку</h2>
-          <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
-          <form class="newsletter-form" action="https://echo.htmlacademy.ru" method="post">
-            <input class="field" type="email" placeholder="Ваш e-mail">
-            <button class="button button-subscribe" type="submit">Подписаться</button>
+          <div class="subscribe-container">
+            <h2>Подпишитесь на рассылку</h2>
+            <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+            <form class="newsletter-form" action="https://echo.htmlacademy.ru" method="post">
+              <div class="input-container">
+                <input class="field" type="email" placeholder="Ваш e-mail">
+                <button class="button button-subscribe" type="submit">Подписаться</button>
+              </div>
           </form>
+          </div>
         </section>
       </div>
     </main>
@@ -124,15 +139,15 @@
         <h2 class="visually-hidden">Контакты</h2>
         <ul class="footer-list-social">
           <li class="footer-item">
-            <a class="button button-social" href="#">
+            <a class="button footer-link" href="#">
               <span class="visually-hidden">Твиттер</span>
             </a>
           <li class="footer-item">
-            <a class="button button-social" href="#">
+            <a class="button footer-link" href="#">
               <span class="visually-hidden">Фейсбук</span>
             </a>
           <li class="footer-item">
-            <a class="button button-social" href="#">
+            <a class="button footer-link" href="#">
               <span class="visually-hidden">Ютуб</span>
             </a>
           </li>
