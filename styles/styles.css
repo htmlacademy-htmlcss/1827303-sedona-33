@@ -22,7 +22,7 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
   min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-style: normal;
@@ -405,9 +405,10 @@ body {
 }
 
 .catalog-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   width: 1060px;
+  grid-template-columns: repeat(3, 340px);
+  gap: 10px 20px;
   margin: 0 auto;
   margin-bottom: 34px;
   padding: 0;
@@ -417,16 +418,10 @@ body {
 .catalog-item {
   display: flex;
   flex-direction: column;
-  width: 340px;
   min-height: 438px;
   padding: 20px;
   box-sizing: border-box;
-  margin-right: 20px;
   justify-content: space-between;
-}
-
-.catalog-list .catalog-item:nth-child(3n) {
-  margin-right: 0;
 }
 
 .item-title {
@@ -570,6 +565,8 @@ body {
 
 /* Subscribe */
 .subscribe-catalog {
+  display: flex;
+  min-height: 454px;
   font-size: 22px;
   line-height: 26px;
   color: #333333;
@@ -577,21 +574,16 @@ body {
   text-align: center;
 }
 
-.subscribe-container {
-  width: 800px;
+.subscribe-catalog .subscribe-container-catalog {
+  min-height: 241px;
   margin: 0 auto;
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.subscribe-container-catalog {
-  padding-top: 73px;
-  padding-bottom: 140px;
+  margin-top: 73px;
+  margin-bottom: 140px;
 }
 
 .subscribe-container-catalog .subscribe-catalog-title {
   color: #000000;
-  padding-bottom: 46px;
+  margin-bottom: 46px;
 }
 
 .subscribe-catalog input{
@@ -807,6 +799,8 @@ body {
 }
 
 .subscribe {
+  min-height: 410px;
+  display: flex;
   font-size: 22px;
   line-height: 26px;
   color: #FFFFFF;
@@ -817,10 +811,16 @@ body {
   background-repeat: no-repeat;
 }
 
+.subscribe-container {
+  width: 800px;
+  min-height: 224px;
+  margin: auto;
+}
+
 .subscribe-container h2 {
   width: 720px;
   margin: 0 auto;
-  padding-bottom: 29px;
+  margin-bottom: 29px;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -829,8 +829,10 @@ body {
 
 .subscribe-container p {
   width: 720px;
+  box-sizing: border-box;
   margin: 0 auto;
-  padding-bottom: 46px;
+  margin-bottom: 46px;
+  padding: 0 100px;
 }
 
 .input-container {
