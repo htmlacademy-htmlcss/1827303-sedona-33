@@ -735,10 +735,10 @@ body {
 .advantage-subitem {
   display: flex;
   flex-direction: column;
+  justify-content: end;
   width: 400px;
   color: #333333;
   background-color: #FFFFFF;
-  padding-top: 184px;
   padding-bottom: 79px;
 }
 
