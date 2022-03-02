@@ -80,7 +80,7 @@
                 </ul>
               </fieldset>
 
-                <fieldset class="catalog-filter-group filter-container-building">
+              <fieldset class="catalog-filter-group filter-container-building">
                   <legend class="catalog-filter-title">Тип жилья:</legend>
                   <ul class="catalog-filter-list">
                     <li class="catalog-filter-item">
@@ -102,13 +102,13 @@
                       </label>
                     </li>
                   </ul>
-                </fieldset>
+              </fieldset>
 
               <fieldset class="catalog-filter-group filter-container-range">
                 <legend class="catalog-filter-title">Стоимость, ₽:</legend>
 
                 <div class="filter-container-input">
-                  <div class="range-wrapper range-container">
+                  <div class="range-container">
                     <div class="range range-min">
                       <label for="segment-min">от</label>
                       <input class="range-segment-min" type="text" id="segment-min" placeholder="0">
@@ -121,11 +121,14 @@
                   </div>
 
                   <input type="range" name="price" min="0" max="10000" value="9000">
-
-                  <button class="button button-on" type="submit">Применить</button>
-                  <button class="button button-clear" type="reset">Сбросить</button>
                 </div>
               </fieldset>
+
+              <div class="filter-container-send">
+                <button class="button button-on" type="submit">Применить</button>
+                <button class="button button-clear" type="reset">Сбросить</button>
+              </div>
+
             </div>
           </form>
         </section>
