@@ -56,9 +56,11 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   border: none;
+  cursor: pointer;
 }
 
 .button-subscribe {
+  display: inline-block;
   width: 200px;
   height: 60px;
   box-sizing: border-box;
@@ -71,9 +73,7 @@ body {
 }
 
 .button-on {
-  display: block;
-  grid-column: 2 / 3;
-  grid-row: 1 / 2;
+  display: inline-block;
   width: 160px;
   height: 48px;
   margin: 0;
@@ -84,8 +84,7 @@ body {
 }
 
 .button-clear {
-  display: block;
-  grid-column: 2 / 3;
+  display: inline-block;
   width: 160px;
   height: 23px;
   margin: 0;
@@ -94,14 +93,12 @@ body {
   line-height: 23px;
   font-weight: 400;
   background-color: transparent;
-
 }
 
 .button-catalog {
   display: block;
   box-sizing: border-box;
   width: 140px;
-  height: 37px;
   padding: 9px 0;
   background-color: #83B3D3;
 }
@@ -109,6 +106,16 @@ body {
 .button-catalog-current {
   color: #FFFFFF;
   background-color: #7DB54F;
+}
+
+.button-show-more {
+  display: block;
+  width: 620px;
+  padding: 17px 0;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 26px;
+  background-color: #83B3D3;
 }
 
 /* Header */
@@ -127,6 +134,7 @@ body {
 }
 
 .header-logo {
+  display: block;
   width: 139px;
   margin-right: 30px;
 }
@@ -148,26 +156,26 @@ body {
 }
 
 .navigation-user .navigation-item{
-  margin: 22px 10px;
+  padding: 22px 10px;
 }
 
 .navigation-user .navigation-link {
-  display: block;
   min-width: 22px;
   min-height: 22px;
   padding: 0;
 }
 
 .navigation-user .navigation-link-button {
+  display: block;
   width: 130px;
   height: 20px;
   padding: 8px 15px;
-  color: #FFFFFF;
-  background: #756257;
-  font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
+  color: #FFFFFF;
+  background-color: #756257;
+  text-decoration: none;
   text-transform: uppercase;
 }
 
@@ -391,6 +399,9 @@ body {
 .filter-link {
   color: #000000;
   background-color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 /* Catalog */
@@ -420,6 +431,10 @@ body {
   padding: 20px;
   box-sizing: border-box;
   justify-content: space-between;
+}
+
+.catalog-item-photo {
+  display: block;
 }
 
 .item-title {
@@ -467,6 +482,14 @@ body {
   width: 133px;
   height: 37px;
   padding: 9px 0;
+  color: #FFFFFF;
+  background-color: #756257;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .icons-star {
@@ -495,17 +518,6 @@ body {
   align-items: center;
 }
 
-.pagination-show-more {
-  display: block;
-  width: 620px;
-  height: 60px;
-  padding: 17px 17px;
-  margin: 0 auto;
-  font-size: 20px;
-  line-height: 26px;
-  background-color: #83B3D3;
-}
-
 .pagination-container {
   display: flex;
   flex-direction: row;
@@ -522,24 +534,31 @@ body {
   list-style-type: none;
 }
 
+.pagination-item {
+  display: flex;
+  width: 55px;
+  height: 55px;
+  color: #FFFFFF;
+  background-color: #83B3D3;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination-item:nth-child(1) {
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
 .pagination-item:not(:last-child) {
   margin-right: 8px;
 }
 
 .pagination-link {
-  display: block;
-  box-sizing: border-box;
-  width: 55px;
-  height: 55px;
-  padding: 14px;
+  font-weight: 700;
   font-size: 20px;
   line-height: 26px;
-  background-color: #83B3D3;
-}
-
-.pagination-link-current {
-  color: #000000;
-  background-color: #F2F2F2;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .text-output {
@@ -792,8 +811,14 @@ body {
   width: 575px;
   padding: 15px 0;
   margin: 0 auto;
+  font-weight: 700;
   font-size: 20px;
   line-height: 36px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #756257;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .subscribe {
@@ -902,4 +927,8 @@ body {
   width: 115px;
   height: 34px;
   margin-top: 2px;
+}
+
+.footer-logo-academy {
+  display: block;
 }
