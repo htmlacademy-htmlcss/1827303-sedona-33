@@ -637,6 +637,7 @@ body {
 
 /* MAIN INDEX */
 .first-screen-image {
+  position: relative;
   color: #FFFFFF;
   background-color: #83B3D3;
   background-image: url("../images/index-background.jpg");
@@ -644,6 +645,15 @@ body {
   background-repeat: no-repeat;
   padding-top: 46px;
   padding-bottom: 82px;
+}
+
+.first-screen-image::after {
+  position: absolute;
+  display: block;
+  content: url("../images/svg/main/vector.svg");
+  width: 1200px;
+  height: 57px;
+  bottom: 0;
 }
 
 .main-logo {
