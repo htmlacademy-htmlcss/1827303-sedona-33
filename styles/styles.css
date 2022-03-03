@@ -188,7 +188,9 @@ body {
   content: "";
   height: 2px;
   bottom: 0;
-  width: 70px;
+  right: 17px;
+  left: 17px;
+  align-self: center;
   background-color: #756257;
 }
 
