@@ -219,16 +219,33 @@ body {
   fill: #000000;
 }
 
-.navigation-icon:hover {
-  color: #756257;
-}
-
-
-
-.navigation-icon-like {
+.navigation-user-link:before {
+  display: flex;
+  content: "12";
   position: absolute;
-  top: -6px;
+  top: -9px;
+  right: -6px;
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  line-height: 13px;
+  color: #FFFFFF;;
+  background-color: #7DB550;
+  z-index: 1;
 }
+
+.navigation-icon:hover {
+  fill: #756257;
+}
+
+.navigation-icon:active {
+  fill: #756257;
+  opacity: 0.3;
+}
+
 
 /* MAIN INDEX */
 .main-index {
