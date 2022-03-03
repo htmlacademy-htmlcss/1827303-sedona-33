@@ -159,6 +159,36 @@ body {
   padding: 22px 10px;
 }
 
+.navigation-link {
+  position: relative;
+  display: block;
+  padding: 20px 17px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-decoration: none;
+  text-align: center;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.navigation-link:hover {
+  color: #756257;
+}
+
+.navigation-link:active {
+  color: rgba(117, 98, 87, 0.3);
+}
+
+.navigation-link-current::before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  bottom: 0;
+  width: 70px;
+  background-color: #756257;
+}
+
 .navigation-user .navigation-link {
   min-width: 22px;
   min-height: 22px;
@@ -179,19 +209,6 @@ body {
   text-transform: uppercase;
 }
 
-.navigation-link {
-  position: relative;
-  display: block;
-  padding: 20px 17px;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 26px;
-  text-decoration: none;
-  text-align: center;
-  color: #000000;
-  background-color: #FFFFFF;
-}
-
 .navigation-icon {
   position: absolute;
   top: 0;
@@ -201,6 +218,12 @@ body {
   margin: auto;
   fill: #000000;
 }
+
+.navigation-icon:hover {
+  color: #756257;
+}
+
+
 
 .navigation-icon-like {
   position: absolute;
