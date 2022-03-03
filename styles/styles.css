@@ -533,6 +533,21 @@ body {
   list-style-type: none;
 }
 
+.pagination-item {
+  display: flex;
+  color: #FFFFFF;
+  background-color: #83B3D3;
+  width: 55px;
+  height: 55px;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination-item:nth-child(1) {
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
 .pagination-item:not(:last-child) {
   margin-right: 8px;
 }
@@ -540,11 +555,10 @@ body {
 .pagination-link {
   display: block;
   box-sizing: border-box;
-  padding: auto;
+  padding: 14px 14px;
+  text-align: center;
   color: #FFFFFF;
   background-color: #83B3D3;
-  width: 55px;
-  height: 55px;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
