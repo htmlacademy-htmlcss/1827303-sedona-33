@@ -200,11 +200,9 @@ body {
 
 .navigation-user .navigation-link-button {
   display: inline-block;
-  box-sizing: border-box;
   width: 130px;
-  height: 20px;
   margin-left: auto;
-  padding: 8px 15px;
+  padding: 9px 15px 8px;
   font-size: 16px;
   line-height: 20px;
   border-radius: 4px;
@@ -222,6 +220,11 @@ body {
 
 .navigation-link-button:focus {
   border: 3px solid #83B3D3;
+}
+
+.navigation-link-button:active {
+  border: none;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .navigation-icon {
@@ -922,11 +925,25 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
+  border-radius: 10px;
   text-align: center;
   color: #FFFFFF;
   background-color: #756257;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.search-link:hover {
+  background: #615048;
+}
+
+.search-link:focus {
+  border: 3px solid #83B3D3;
+}
+
+.search-link:active {
+  border: none;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .subscribe {
