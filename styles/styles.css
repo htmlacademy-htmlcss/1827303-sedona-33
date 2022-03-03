@@ -180,6 +180,7 @@ body {
 }
 
 .navigation-link {
+  position: relative;
   display: block;
   padding: 20px 17px;
   font-weight: 700;
@@ -189,6 +190,21 @@ body {
   text-align: center;
   color: #000000;
   background-color: #FFFFFF;
+}
+
+.navigation-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  fill: #000000;
+}
+
+.navigation-icon-like {
+  position: absolute;
+  top: -6px;
 }
 
 /* MAIN INDEX */
@@ -769,6 +785,21 @@ body {
   color: #333333;
   background-color: #FFFFFF;
   padding-bottom: 79px;
+  background-repeat: no-repeat;
+  background-position: center bottom 223px;
+  background-size: 75px 72px;
+}
+
+.advantage-subitem:nth-child(1) {
+  background-image: url("../images/svg/main/home.svg");
+}
+
+.advantage-subitem:nth-child(2) {
+  background-image: url("../images/svg/main/food.svg");
+}
+
+.advantage-subitem:nth-child(3) {
+  background-image: url("../images/svg/main/surprise.svg");
 }
 
 .advantage-sub-list li:nth-child(1),
