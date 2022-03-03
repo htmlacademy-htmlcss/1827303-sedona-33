@@ -1000,6 +1000,20 @@ body {
   padding-left: 22px;
   padding-right: 19px;
   border: none;
+  background-color: #F2F2F2;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.input-container input:hover {
+  background-color: #E6E6E6;
+}
+
+.input-container input:focus {
+  border: 3px solid #83B3D3;
+}
+
+.input-container input:invalid {
+  border: 2px solid #FF5757;
 }
 
 /* Footer */
