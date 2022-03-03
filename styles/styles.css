@@ -74,21 +74,17 @@ body {
 }
 
 .button-subscribe:hover {
-
+  background-color: #68A2CA;
 }
 
-.button-subscribe:hover {
-
+.button-subscribe:focus {
+  border: 3px solid #756257;
 }
 
-.button-subscribe:hover {
-
+.button-subscribe:active {
+  border: none;
+  color:rgba(255, 255, 255, 0.3);
 }
-
-.button-subscribe:hover {
-
-}
-
 
 .button-on {
   display: inline-block;
