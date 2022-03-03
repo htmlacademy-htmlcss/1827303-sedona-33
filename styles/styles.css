@@ -787,19 +787,21 @@ body {
   padding-bottom: 79px;
   background-repeat: no-repeat;
   background-position: center bottom 223px;
-  background-size: 75px 72px;
 }
 
 .advantage-subitem:nth-child(1) {
   background-image: url("../images/svg/main/home.svg");
+  background-size: 75px 72px;
 }
 
 .advantage-subitem:nth-child(2) {
   background-image: url("../images/svg/main/food.svg");
+  background-size: 74px 70px;
 }
 
 .advantage-subitem:nth-child(3) {
   background-image: url("../images/svg/main/surprise.svg");
+  background-size: 64px 76px;
 }
 
 .advantage-sub-list li:nth-child(1),
@@ -945,11 +947,19 @@ body {
   display: block;
   width: 20px;
   height: 20px;
+  background-repeat: no-repeat;
+  background-size: ;
 }
 
 .footer-link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
   color: #000000;
   background-color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .footer-link-tel {
