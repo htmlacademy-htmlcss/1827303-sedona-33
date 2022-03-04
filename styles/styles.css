@@ -253,8 +253,8 @@ body {
   display: flex;
   content: "12";
   position: absolute;
-  top: 17px;
-  right: -9px;
+  bottom: 34px;
+  left: 25px;
   width: 19px;
   height: 19px;
   border-radius: 50%;
@@ -275,7 +275,6 @@ body {
   fill: #756257;
   opacity: 0.3;
 }
-
 
 /* MAIN INDEX */
 .main-index {
