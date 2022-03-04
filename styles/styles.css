@@ -950,11 +950,11 @@ body {
 }
 
 .search-link:focus {
+  background: #615048;
   outline: 3px solid #83B3D3;
 }
 
 .search-link:active {
-  border: none;
   color: rgba(255, 255, 255, 0.3);
 }
 
@@ -1019,6 +1019,7 @@ body {
 }
 
 .input-container input:focus {
+  background: #E6E6E6;
   border: 3px solid #83B3D3;
 }
 
