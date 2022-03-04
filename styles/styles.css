@@ -1021,12 +1021,13 @@ body {
 }
 
 .input-container input:focus {
-  background: #E6E6E6;
-  border: 3px solid #83B3D3;
+  background-color: #E6E6E6;
+  outline: 3px solid #83B3D3;
 }
 
 .input-container input:invalid {
-  border: 2px solid #FF5757;
+  background-color: #FFFFFF;
+  outline: 2px solid #FF5757;
 }
 
 /* Footer */
