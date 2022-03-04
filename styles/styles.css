@@ -225,15 +225,16 @@ body {
 }
 
 .navigation-link-button:hover {
-  background: #615048;
+  background-color: #615048;
 }
 
 .navigation-link-button:focus {
-  background: #615048;
+  background-color: #615048;
   outline: 3px solid #83B3D3;
 }
 
 .navigation-link-button:active {
+  background-color: #615048;
   color: rgba(255, 255, 255, 0.3);
 }
 
@@ -946,15 +947,16 @@ body {
 }
 
 .search-link:hover {
-  background: #615048;
+  background-color: #615048;
 }
 
 .search-link:focus {
-  background: #615048;
+  background-color: #615048;
   outline: 3px solid #83B3D3;
 }
 
 .search-link:active {
+  background-color: #615048;
   color: rgba(255, 255, 255, 0.3);
 }
 
