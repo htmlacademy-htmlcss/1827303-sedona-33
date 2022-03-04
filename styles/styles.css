@@ -78,11 +78,12 @@ body {
 }
 
 .button-subscribe:focus {
-  border: 3px solid #756257;
+  background-color: #68A2CA;
+  outline: 3px solid #756257;
 }
 
 .button-subscribe:active {
-  border: none;
+  background-color: #68A2CA;
   color:rgba(255, 255, 255, 0.3);
 }
 
@@ -1042,7 +1043,7 @@ body {
   box-sizing: border-box;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 40px 72px;
+  padding: 40px 72px 40px 61px;
 }
 
 .footer-list-social {
@@ -1053,10 +1054,14 @@ body {
   margin-top: 9px;
   padding: 0;
   list-style-type: none;
-  width: 107px;
+}
+
+.footer-item:not(:last-child) {
+  margin-right: 4px;
 }
 
 .footer-link {
+  position: relative;
   display: block;
   width: 40px;
   height: 40px;
@@ -1070,17 +1075,32 @@ body {
   text-transform: uppercase;
 }
 
-.footer-link:hover {
-  background-color: #68A2CA;
+.footer-social-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  fill: #83B3D3;
+}
+
+.footer-link:hover svg {
+  fill: #68A2CA;
 }
 
 .footer-link:focus {
-  border: 3px solid #83B3D3;
+  fill: #68A2CA;
+  outline: 3px solid #83B3D3;
   border-radius: 10px;
 }
 
 .footer-link:active {
+  outline: none;
+}
 
+.footer-link:active svg {
+  opacity: 0.3;
 }
 
 
