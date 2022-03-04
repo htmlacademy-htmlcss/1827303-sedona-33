@@ -276,6 +276,10 @@ body {
   opacity: 0.3;
 }
 
+.navigation-icon-number {
+  fil: tomato;
+}
+
 /* MAIN INDEX */
 .main-index {
   font-style: inherit;
