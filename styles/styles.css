@@ -117,18 +117,34 @@ body {
 
 .button-clear {
   display: inline-block;
-  width: 160px;
+  align-self: center;
+  max-width: 160px;
+  width: 100px;
   height: 23px;
   margin: 0;
   padding: 0;
+  padding-top: 1px;
+  padding-bottom: 2px;
   font-size: 18px;
   line-height: 23px;
   font-weight: 400;
+  color: #FFFFFF;
   background-color: transparent;
 }
 
 .button-clear:hover {
   opacity: 0.6;
+}
+
+.button-clear:focus {
+  outline: 3px solid #83B3D3;
+  border-radius: 4px;
+  color: #FFFFFF;
+}
+
+.button-clear:active {
+  opacity: 0.3;
+  outline: none;
 }
 
 .button-catalog {
