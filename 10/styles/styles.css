@@ -487,16 +487,13 @@ body {
   list-style-type: none;
 }
 
-.filter-item {
-  width: 48px;
-  height: 48px;
-}
-
 .filter-item:not(:last-child) {
   margin-right: 8px;
 }
 
 .filter-link {
+  width: 48px;
+  height: 48px;
   color: #000000;
   background-color: #FFFFFF;
   text-align: center;
