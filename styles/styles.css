@@ -96,6 +96,23 @@ body {
   color: #FFFFFF;
   background-color: #83B3D3;
   margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.button-on:hover {
+  background-color: #68A2CA;
+}
+
+.button-on:focus {
+  background-color: #68A2CA;
+  outline: 3px solid #FFFFFF;
+}
+
+.button-on:active {
+  background-color: #68A2CA;
+  color: rgba(255, 255, 255, 0.3);
+  outline: none;
+
 }
 
 .button-clear {
@@ -108,6 +125,10 @@ body {
   line-height: 23px;
   font-weight: 400;
   background-color: transparent;
+}
+
+.button-clear:hover {
+  opacity: 0.6;
 }
 
 .button-catalog {
