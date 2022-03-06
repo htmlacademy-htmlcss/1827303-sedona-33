@@ -685,6 +685,19 @@ body {
   display: block;
 }
 
+.catalog-item-photo:hover {
+  opacity: 0.6;
+}
+
+.catalog-item-photo:focus {
+  outline: 3px solid #83B3D3;
+}
+
+.catalog-item-photo:active {
+  outline: none;
+  opacity: 0.3;
+}
+
 .item-title {
   font-weight: 700;
   font-size: 24px;
@@ -729,6 +742,7 @@ body {
   box-sizing: border-box;
   width: 133px;
   padding: 9px 0;
+  border-radius: 4px;
   color: #FFFFFF;
   background-color: #756257;
   font-weight: 700;
@@ -738,6 +752,21 @@ body {
   text-decoration: none;
   text-transform: uppercase;
 }
+
+.hotel-link:hover {
+  background-color: #615048;
+}
+
+.hotel-link:focus {
+  background-color: #615048;
+  outline: 3px solid #83B3D3;
+}
+
+.hotel-link:active {
+  outline: none;
+  color: rgba(255, 255, 255, 0.3);
+}
+
 
 .icons-star {
   align-self: center;
