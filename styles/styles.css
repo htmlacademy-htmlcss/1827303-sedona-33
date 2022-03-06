@@ -46,6 +46,7 @@ body {
 
 /* Button */
 .button {
+  display: block;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -152,12 +153,48 @@ body {
   box-sizing: border-box;
   width: 140px;
   padding: 9px 0;
+  border-radius: 4px;
   background-color: #83B3D3;
 }
 
+.button-catalog:hover {
+  background-color: #68A2CA;
+  outline: 1px solid #756257;
+}
+
+.button-catalog:focus {
+  background-color: #68A2CA;
+  outline: 3px solid #756257;
+}
+
+.button-catalog:active {
+  background-color: #68A2CA;
+  outline: 1px solid #756257;
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .button-catalog-current {
+  box-sizing: border-box;
+  width: 140px;
+  padding: 9px 0;
   color: #FFFFFF;
   background-color: #7DB54F;
+  border-radius: 4px;
+}
+
+.button-catalog-current:hover {
+  background-color: #6C9E42;
+}
+
+.button-catalog-current:focus {
+  background-color: #6C9E42;
+  outline: 3px solid #756257;
+}
+
+.button-catalog-current:active {
+  background-color: #68A2CA;
+  outline: 1px solid #756257;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .button-show-more {
