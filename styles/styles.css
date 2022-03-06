@@ -192,8 +192,8 @@ body {
 }
 
 .button-catalog-current:active {
-  background-color: #68A2CA;
-  outline: 1px solid #756257;
+  background-color: #6C9E42;
+  outline: none;
   color: rgba(255, 255, 255, 0.3);
 }
 
@@ -205,6 +205,22 @@ body {
   font-size: 20px;
   line-height: 26px;
   background-color: #83B3D3;
+  border-radius: 4px;
+}
+
+.button-show-more:hover {
+  background-color: #68A2CA;
+}
+
+.button-show-more:focus {
+  background-color: #68A2CA;
+  outline: 3px solid #756257;
+}
+
+.button-show-more:active {
+  background-color: #68A2CA;
+  color: rgba(255, 255, 255, 0.3);
+  outline: none;
 }
 
 /* Header */
