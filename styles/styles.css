@@ -576,9 +576,25 @@ body {
 .select-control {
   width: 287px;
   height: 48px;
+  box-sizing: border-box;
+  border: 2px solid #E6E6E6;
+  border-radius: 4px;
   margin-right: 80px;
   color: #333333;
   background-color: inherit;
+}
+
+.select-control:hover {
+  border: 2px solid #83B3D3;
+}
+
+.select-control:focus {
+  border: 2px solid #83B3D3;
+}
+
+.select-control:active {
+  border: 2px solid #E6E6E6;
+  opacity: 0.3;
 }
 
 .filter-list {
