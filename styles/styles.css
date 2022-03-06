@@ -593,6 +593,11 @@ body {
 }
 
 .filter-link {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  border: 2px solid #E6E6E6;
+  border-radius: 4px;
   width: 48px;
   height: 48px;
   font-weight: 700;
@@ -603,6 +608,32 @@ body {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.filter-link:hover {
+  border: 2px solid #83B3D3;
+}
+
+.filter-link:focus {
+  border: 2px solid #83B3D3;
+}
+
+
+.filter-link:active {
+  border: 2px solid #000000;
+}
+
+.filter-link-current {
+  border: 2px solid #000000;
+}
+
+.filter-link-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
 }
 
 /* Catalog */
