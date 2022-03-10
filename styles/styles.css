@@ -643,16 +643,17 @@ body {
 .range-container {
   display: grid;
   grid-template-columns: 144px 144px;
-  margin-bottom: 20px;
+  margin-bottom: 32px;
 }
 
 .range {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
-.range-container label {
-  opacity: 0.3;
+.range input::placeholder {
+  color: #FFFFFF;
 }
 
 .range input {
@@ -672,6 +673,46 @@ body {
 
 .range-max input {
   border-radius: 0 4px 4px 0;
+}
+
+.range label{
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.3;
+}
+
+.range-scale {
+  position: relative;
+  height: 4px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.range-bar {
+  position: absolute;
+  background-color: #FFFFFF;
+  width: 227px;
+  height: 4px;
+}
+
+.range-toggle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toggle-min {
+  top: -8px;
+}
+
+.toggle-max {
+  top: -8px;
+  right: -9px;
 }
 
 /* Stock filter*/
