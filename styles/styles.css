@@ -967,7 +967,6 @@ body {
 .subscribe-catalog input{
   color: #000000;
   background-color: #F2F2F2;
-  opacity: 0.6;
 }
 
 /* MAIN INDEX */
@@ -1278,6 +1277,11 @@ body {
   border: none;
   background-color: #F2F2F2;
   border-radius: 10px 0px 0px 10px;
+}
+
+.form-subscribe input::placeholder {
+  color: #000000;
+  opacity: 0.6;
 }
 
 .input-container input:hover {
