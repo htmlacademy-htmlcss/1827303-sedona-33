@@ -585,16 +585,16 @@ body {
   border-radius: 4px;
 }
 
-.control:hover .control-mark {
+.filter-container-services .control:hover .control-mark {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-.control:focus .control-mark {
+.filter-container-services .control:focus .control-mark {
   background-color: rgba(255, 255, 255, 0.6);
   outline: 3px solid #83B3D3;
 }
 
-.control:active .control-mark {
+.filter-container-services .control:active .control-mark {
   background-color: rgba(255, 255, 255, 0.3);
   outline: none;
 }
@@ -625,10 +625,14 @@ body {
   content: "";
 }
 
-.control-input[type="radio"]:hover + .control-mark,
-.control-input[type="radio"]:focus + .control-mark,
-.control-input[type="radio"]:active + .control-mark {
-  background-color: #FFFFFF;
+.filter-container-building .control:focus .control-mark {
+  box-sizing: border-box;
+  border: 3px solid #83B3D3;
+}
+
+.control:focus .control-input[type="radio"]:checked + .control-mark {
+  border: none;
+  outline: 3px solid #83B3D3;
 }
 
 .filter-container-input {
@@ -651,9 +655,23 @@ body {
   opacity: 0.3;
 }
 
-.range-container input {
+.range input {
   color: inherit;
   background-color: transparent;
+  box-sizing: border-box;
+  border-radius: 4px 0 0 4px;
+  padding: 14px 40px 11px 17px;
+  font-family: inherit;
+  text-align: left;
+  border: 2px solid #FFFFFF;
+}
+
+.range-min input {
+  border-right: 1px;
+}
+
+.range-max input {
+  border-radius: 0 4px 4px 0;
 }
 
 /* Stock filter*/
