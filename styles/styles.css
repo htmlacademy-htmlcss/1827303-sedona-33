@@ -238,6 +238,42 @@ body {
   border: none;
 }
 
+.button-submit {
+  display: block;
+  box-sizing: border-box;
+  width: 575px;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #83B3D3;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+
+.button-submit:hover {
+  background-color: #68A2CA;
+}
+
+.button-submit:focus {
+  background-color: #68A2CA;
+  outline: 3px solid #756257;
+}
+
+.button-submit:active {
+  background-color: #68A2CA;
+  outline: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+
 /* Header */
 .page-header {
   color: inherit;
@@ -1640,6 +1676,9 @@ body {
   fill: #000000;
 }
 
+
+/* MODAL */
+
 .modal-container {
   position: fixed;
   top: 0;
@@ -1649,6 +1688,10 @@ body {
   height: 100%;
   background-color: rgba(242, 242, 242, 0.8);
 }
+
+/* .modal-container-close {
+  display: none;
+} */
 
 .modal {
   position: relative;
