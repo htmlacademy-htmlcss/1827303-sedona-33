@@ -1715,6 +1715,12 @@ body {
   border: none;
 }
 
+.auth-form-field::-webkit-outer-spin-button,
+.auth-form-field::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
 .auth-form-field[type="text"] {
   padding: 0 246px 1px 19px;
   appearance: none;
