@@ -780,9 +780,14 @@ body {
   box-sizing: border-box;
   border: 2px solid #E6E6E6;
   border-radius: 4px;
+  padding: 12px 67px 13px 19px;
   margin-right: 80px;
   color: #333333;
   background-color: inherit;
+  appearance: none;
+  background-image: url(../images/svg/catalog/dropdown.svg);
+  background-repeat: no-repeat;
+  background-position: right 21px center;
 }
 
 .select-control:hover {
@@ -916,6 +921,26 @@ body {
 .catalog-content-wrapper p {
   margin: 0;
   padding: 0;
+}
+
+.icons-star {
+  min-width: 100px;
+}
+
+.stars {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.star {
+  width: 18px;
+  height: 17px;
+  margin-right: 7px;
+  background-image: url(../images/svg/catalog/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .wrapper-info {
