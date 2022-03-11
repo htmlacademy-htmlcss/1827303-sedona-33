@@ -1748,6 +1748,7 @@ body {
 }
 
 .auth-form-field {
+  display: block;
   box-sizing: border-box;
   font-family: inherit;
   font-weight: 700;
@@ -1811,9 +1812,20 @@ body {
 }
 
 .auth-form-field[type="number"] {
+  position: relative;
   width: 133px;
   padding: 0 40px;
   appearance: none;
   text-align: center;
+}
+
+.auth-form-field[type="number"]::before {
+  position: absolute;
+  content: "";
+  width: 25px;
+  height: 25px;
+  top: 24px;
+  left: 19px;
+  background-image: url(../images/svg/main/minus.svg);
 }
 
