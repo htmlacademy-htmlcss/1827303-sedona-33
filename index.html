@@ -186,9 +186,17 @@
                 <span class="help">На эти даты есть свободные номера. Пока есть.</span>
             </div>
             <div class="label-wrapper">
-              <p class="guests-wrapper">
+              <p class="guests-wrapper guests-wrapper-adult">
                 <label for="guests-adults-field">Взрослые:</label>
-                <input class="auth-form-field" type="number" name="guests-adults" id="guests-adults-field">
+                <span class="field-wrapper">
+                  <input class="auth-form-field" type="number" name="guests-adults" id="guests-adults-field">
+                  <span class="guests guests-minus">
+                    <svg width="13" height="1" viewBox="0 0 13 1" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path opacity=".3" d="M0 0v1h13V0H0Z"/></svg>
+                  </span>
+                  <span class="guests guests-plus">
+                    <svg width="13" height="13" viewBox="0 0 13 13" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z"/></svg>
+                  </span>
+                </span>
               </p>
               <p class="guests-wrapper">
                 <label for="guests-child-field">Дети:</label>

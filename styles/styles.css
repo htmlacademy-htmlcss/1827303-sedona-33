@@ -1737,6 +1737,7 @@ body {
   line-height: 40px;
   color: #000000;
   background-color: #FFFFFF;
+  align-self: center;
 }
 
 .label-wrapper-data {
@@ -1748,6 +1749,7 @@ body {
 }
 
 .auth-form-field {
+  height: 50px;
   display: block;
   box-sizing: border-box;
   font-family: inherit;
@@ -1792,6 +1794,7 @@ body {
 }
 
 .label-wrapper {
+  position: relative;
   display: flex;
   justify-content: space-between;
   margin: 0;
@@ -1812,20 +1815,45 @@ body {
 }
 
 .auth-form-field[type="number"] {
-  position: relative;
   width: 133px;
+  height: 50px;
   padding: 0 40px;
   appearance: none;
   text-align: center;
 }
 
-.auth-form-field[type="number"]::before {
+.field-wrapper {
+  position: relative;
+}
+
+.guests {
   position: absolute;
-  content: "";
+  top: 0;
+  left: 0;
+  display: flex;
   width: 25px;
   height: 25px;
-  top: 24px;
-  left: 19px;
-  background-image: url(../images/svg/main/minus.svg);
+  align-items: center;
+  justify-content: center;
 }
+
+.guests-plus {
+  top: 12px;
+}
+
+.guests svg{
+  align-items: center;
+}
+
+/* .field-wrapper::before {
+  position: absolute;
+  width: 13px;
+  height: 1px;
+  content: "";
+  background-color: #000000;
+} */
+
+
+
+
 
