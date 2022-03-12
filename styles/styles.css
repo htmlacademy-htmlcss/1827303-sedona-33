@@ -231,11 +231,29 @@ body {
   width: 53px;
   height: 53px;
   background-color: #F2F2F2;
-  background-image: url(../images/svg/main/cross.svg);
+  /* background-image: url(../images/svg/main/cross.svg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
   border-radius: 50%;
   border: none;
+}
+
+.button-close:hover {
+  background-color: #E6E6E6;
+}
+
+.button-close:focus {
+  background-color: #E6E6E6;
+  outline: 3px solid #83B3D3;
+}
+
+.button-close:active {
+  background-color: #E6E6E6;
+  outline: none;
+}
+
+.button-close:active .cross {
+  opacity: 0.3;
 }
 
 .button-submit {
@@ -1764,6 +1782,12 @@ body {
   text-transform: uppercase;
   color: #000000;
   background-color: #FFFFFF;
+}
+
+.cross {
+  position: absolute;
+  top: 20px;
+  left: 20px;
 }
 
 .modal-auth-form {
