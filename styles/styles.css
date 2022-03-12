@@ -273,6 +273,31 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.button-counter {
+  position: relative;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-counter .guests-minus {
+  position: absolute;
+  top: 12px;
+  left: 6px
+}
+
+.button-counter .guests-plus {
+  position: absolute;
+  top: 6px;
+  left: 6px
+}
+
+.button-counter:hover .guests {
+  fill: #000000;
+}
 
 /* Header */
 .page-header {
@@ -1693,7 +1718,7 @@ body {
   display: none;
 } */
 
-.modal {
+.modal-content {
   position: relative;
   width: 575px;
   margin: auto;
@@ -1705,8 +1730,6 @@ body {
 
 .modal-auth {
   position: relative;
-  top: o;
-  left: 0;
   width: 100%;
 }
 
@@ -1824,9 +1847,25 @@ body {
 
 .field-wrapper {
   position: relative;
+  display: block;
+}
+
+.button-counter-wrapper {
+  position: absolute;
+  top: 12px;
+  left: 13px;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  width: 81px;
+  justify-content: space-between;
 }
 
 .guests {
+  fill: rgba(0, 0, 0, 0.3);
+}
+
+/* .guests {
   position: absolute;
   display: flex;
   width: 25px;
@@ -1857,7 +1896,7 @@ body {
 
 .guests-wrapper-adult .guests:hover svg {
   fill: #000000;
-}
+} */
 
 /* .field-wrapper::before {
   position: absolute;

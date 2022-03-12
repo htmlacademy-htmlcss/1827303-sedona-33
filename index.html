@@ -170,10 +170,10 @@
     </footer>
 
     <div class="modal-container modal-container-close">
-      <div class="modal">
+      <section class="modal-content">
         <div class="modal-auth">
           <h2 class="modal-auth-title">Поиск гостиницы в Седоне</h2>
-          <button class="button-close" type="submit"></button>
+          <button class="button-close" type="button"></button>
           <form class="modal-auth-form" action="https://echo.htmlacademy.ru/" method="post">
             <div class="label-wrapper-data">
               <label for="data-check-in-filed">Дата заезда:</label>
@@ -188,15 +188,17 @@
             <div class="label-wrapper">
               <p class="guests-wrapper guests-wrapper-adult">
                 <label for="guests-adults-field">Взрослые:</label>
-                <span class="field-wrapper">
+                <p class="field-wrapper">
                   <input class="auth-form-field" type="number" name="guests-adults" id="guests-adults-field">
-                  <span class="guests guests-minus">
-                    <svg width="13" height="1" viewBox="0 0 13 1" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M0 0v1h13V0H0Z"/></svg>
-                  </span>
-                  <span class="guests guests-plus">
-                    <svg width="13" height="13" viewBox="0 0 13 13" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z"/></svg>
-                  </span>
-                </span>
+                  <p class="button-counter-wrapper">
+                    <button class="button-counter" type="button">
+                      <svg class="guests guests-minus" width="13" height="1" viewBox="0 0 13 1" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M0 0v1h13V0H0Z"/></svg>
+                    </button>
+                    <button class="button-counter" type="button">
+                      <svg class="guests guests-plus" width="13" height="13" viewBox="0 0 13 13" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z"/></svg>
+                    </button>
+                  </p>
+                </p>
               </p>
               <p class="guests-wrapper">
                 <label for="guests-child-field">Дети:</label>
@@ -206,7 +208,7 @@
             <button class="button-submit" type="submit">Найти</button>
           </form>
         </div>
-      </div>
+      </section>
     </div>
 
   </body>
