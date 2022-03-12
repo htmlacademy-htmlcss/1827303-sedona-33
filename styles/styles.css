@@ -277,23 +277,24 @@ body {
   position: relative;
   box-sizing: border-box;
   display: inline-block;
-  width: 25px;
-  height: 25px;
+  width: 19px;
+  height: 19px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  background-color: transparent;
 }
 
 .button-counter .guests-minus {
   position: absolute;
-  top: 12px;
-  left: 6px
+  top: 9px;
+  left: 3px
 }
 
 .button-counter .guests-plus {
   position: absolute;
-  top: 6px;
-  left: 6px
+  top: 3px;
+  left: 3px
 }
 
 .button-counter:hover .guests {
@@ -301,13 +302,20 @@ body {
 }
 
 .button-counter:focus {
-  fill: #000000;
-  outline-style: inset;
   outline: 3px solid #83B3D3;
 }
 
-.button-counter:hover .guests {
+.button-counter:focus .guests {
   fill: #000000;
+}
+
+.button-counter:active .guests {
+  fill: #000000;
+  opacity: 0.2;
+}
+
+.button-counter:active {
+  outline: none;
 }
 
 /* Header */
@@ -1852,19 +1860,19 @@ body {
 .auth-form-field[type="number"] {
   width: 133px;
   height: 50px;
-  padding: 0 40px;
+  padding: 0 50px;
   appearance: none;
   text-align: center;
 }
 
 .button-counter-wrapper {
   position: absolute;
-  top: 12px;
-  right: 13px;
+  top: 18px;
+  right: 19px;
   display: flex;
   padding: 0;
   margin: 0;
-  width: 107px;
+  width: 95px;
   justify-content: space-between;
 }
 
