@@ -231,9 +231,6 @@ body {
   width: 53px;
   height: 53px;
   background-color: #F2F2F2;
-  /* background-image: url(../images/svg/main/cross.svg);
-  background-repeat: no-repeat;
-  background-position: center; */
   border-radius: 50%;
   border: none;
 }
