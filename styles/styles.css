@@ -1826,6 +1826,7 @@ body {
 }
 
 .guests-wrapper {
+  position: relative;
   display: flex;
   justify-content: space-between;
   margin: 0;
@@ -1845,66 +1846,20 @@ body {
   text-align: center;
 }
 
-.field-wrapper {
-  position: relative;
-  display: block;
-}
-
 .button-counter-wrapper {
   position: absolute;
   top: 12px;
-  left: 13px;
+  right: 13px;
   display: flex;
   padding: 0;
   margin: 0;
-  width: 81px;
+  width: 107px;
   justify-content: space-between;
 }
 
 .guests {
   fill: rgba(0, 0, 0, 0.3);
 }
-
-/* .guests {
-  position: absolute;
-  display: flex;
-  width: 25px;
-  height: 25px;
-  align-items: center;
-  justify-content: center;
-  border: none;
-  background-color: #F2F2F2;
-  border-radius: 4px;
-}
-
-.guests-minus {
-  top: 12px;
-  left: 13px;
-}
-
-.guests-plus {
-  top: 12px;
-  right: 13px;
-}
-
-.guests svg {
-  margin: auto;
-  align-items: center;
-  fill: #000000;
-  opacity: 0.3;
-}
-
-.guests-wrapper-adult .guests:hover svg {
-  fill: #000000;
-} */
-
-/* .field-wrapper::before {
-  position: absolute;
-  width: 13px;
-  height: 1px;
-  content: "";
-  background-color: #000000;
-} */
 
 
 
