@@ -275,6 +275,7 @@ body {
 
 .button-counter {
   position: relative;
+  box-sizing: border-box;
   display: inline-block;
   width: 25px;
   height: 25px;
@@ -293,6 +294,16 @@ body {
   position: absolute;
   top: 6px;
   left: 6px
+}
+
+.button-counter:hover .guests {
+  fill: #000000;
+}
+
+.button-counter:focus {
+  fill: #000000;
+  outline-style: inset;
+  outline: 3px solid #83B3D3;
 }
 
 .button-counter:hover .guests {
