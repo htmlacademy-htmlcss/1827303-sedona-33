@@ -1878,7 +1878,14 @@ body {
   width: 230px;
 }
 
+.form-label-icon {
+  position: relative;
+  padding-right: 25px;
+}
 
+.tooltip {
+  position: absolute;
+}
 
 .auth-form-field[type="number"] {
   width: 133px;
