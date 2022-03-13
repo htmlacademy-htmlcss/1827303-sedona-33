@@ -1363,6 +1363,10 @@ body {
   justify-content: center;
 }
 
+.advantage-item:nth-of-type(1) .contant-wrapper {
+  background-image: url(.);
+}
+
 .advantage-item {
   display: flex;
   min-height: 384px;
