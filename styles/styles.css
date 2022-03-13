@@ -1801,6 +1801,7 @@ body {
   color: #000000;
   background-color: #FFFFFF;
   align-self: center;
+  padding-right: 10px;
 }
 
 .label-wrapper-data {
@@ -1879,12 +1880,71 @@ body {
 }
 
 .form-label-icon {
+  display: flex;
   position: relative;
   padding-right: 25px;
 }
 
 .tooltip {
   position: absolute;
+  margin-top: 12px;
+  right: 0;
+}
+
+.tooltip-toggle {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 25px;
+  height: 25px;
+  border: none;
+  background-color: #83B3D3;
+  border-radius: 50%;
+  background-image: url(../images/svg/main/info.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tooltip-text {
+  position: absolute;
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background-color: #333333;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 18px;
+  width: 216px;
+  margin-top: 15px;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  /* display: none; */
+}
+
+.tooltip-toggle:hover,
+.tooltip-toggle:focus {
+  background-color: #68A2CA;
+}
+
+.tooltip-toggle:hover + .tooltip-text,
+.tooltip-toggle:focus + .tooltip-text {
+  display: block;
+}
+
+.tooltip-text::before {
+  content: '';
+  width: 19px;
+  height: 9px;
+  position: absolute;
+  top: -9px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-image: url(../images/svg/main/arrow-up.svg);
 }
 
 .auth-form-field[type="number"] {
