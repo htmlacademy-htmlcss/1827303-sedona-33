@@ -366,8 +366,12 @@ body {
 .navigation-user {
   display: flex;
   align-items: center;
-  width: 264px;
+  max-width: 300px;
   margin-left: auto;
+}
+
+.navigation-user .navigation-item {
+
 }
 
 .navigation-link {
@@ -412,7 +416,7 @@ body {
   display: inline-block;
   box-sizing: border-box;
   width: 160px;
-  margin-left: auto;
+  margin-left: 20px;
   padding: 9px 15px 8px;
   font-size: 16px;
   line-height: 20px;
@@ -1579,6 +1583,10 @@ body {
   padding: 0 100px;
 }
 
+.subscribe-container form::placeholder {
+  color: rgba(0, 0, 0, 0.6);
+}
+
 .input-container {
   display: flex;
   flex-direction: row;
@@ -1597,11 +1605,6 @@ body {
   font-family: inherit;
   background-color: #F2F2F2;
   border-radius: 10px 0px 0px 10px;
-}
-
-.form-subscribe input::placeholder {
-  color: #000000;
-  opacity: 0.6;
 }
 
 .input-container input:hover {
