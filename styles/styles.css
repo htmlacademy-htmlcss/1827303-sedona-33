@@ -558,7 +558,7 @@ body {
 .breadcrumbs-item::after {
   position: absolute;
   opacity: 0.6;
-  content: url('../images/svg/catalog/arrow-breadcrumbs.svg');
+  content: url("../images/svg/catalog/arrow-breadcrumbs.svg");
   width: 5px;
   height: 8px;
   left: 31px;
@@ -711,7 +711,7 @@ body {
 .control-input[type="checkbox"]:checked + .control-mark::before {
   content: "";
   position: absolute;
-  background-image: url(../images/svg/catalog/check.svg);
+  background-image: url("../images/svg/catalog/check.svg");
   background-repeat: no-repeat;
   width: 13px;
   height: 10px;
@@ -898,7 +898,7 @@ body {
   color: #333333;
   background-color: inherit;
   appearance: none;
-  background-image: url(../images/svg/catalog/dropdown.svg);
+  background-image: url("../images/svg/catalog/dropdown.svg");
   background-repeat: no-repeat;
   background-position: right 21px center;
 }
@@ -1051,7 +1051,7 @@ body {
   width: 18px;
   height: 17px;
   margin-right: 7px;
-  background-image: url(../images/svg/catalog/star.svg);
+  background-image: url("../images/svg/catalog/star.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1369,23 +1369,23 @@ body {
 }
 
 .advantage-item:nth-of-type(1) .contant-wrapper {
-  background-image: url(../images/svg/main/№1.svg);
+  background-image: url("../images/svg/main/№1.svg");
 }
 
 .advantage-item:nth-of-type(3) .contant-wrapper {
-  background-image: url(../images/svg/main/№2.svg);
+  background-image: url("../images/svg/main/№2.svg");
 }
 
 .advantage-item:nth-of-type(4) .contant-wrapper {
-  background-image: url(../images/svg/main/№3.svg);
+  background-image: url("../images/svg/main/№3.svg");
 }
 
 .advantage-item:nth-of-type(5) .contant-wrapper {
-  background-image: url(../images/svg/main/№4.svg);
+  background-image: url("../images/svg/main/№4.svg");
 }
 
 .advantage-item:nth-of-type(6) .contant-wrapper {
-  background-image: url(../images/svg/main/№5.svg);
+  background-image: url("../images/svg/main/№5.svg");
 }
 
 .advantage-item {
@@ -1858,7 +1858,7 @@ body {
 .auth-form-field[type="text"] {
   padding: 0 246px 1px 19px;
   appearance: none;
-  background-image: url(../images/svg/main/schedule.svg);
+  background-image: url("../images/svg/main/schedule.svg");
   background-repeat: no-repeat;
   background-position: right 19px center;
 }
@@ -1927,7 +1927,7 @@ body {
   border: none;
   background-color: #83B3D3;
   border-radius: 50%;
-  background-image: url(../images/svg/main/info.svg);
+  background-image: url("../images/svg/main/info.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1971,7 +1971,7 @@ body {
   left: 0;
   right: 0;
   margin: 0 auto;
-  background-image: url(../images/svg/main/arrow-up.svg);
+  background-image: url("../images/svg/main/arrow-up.svg");
 }
 
 .auth-form-field[type="number"] {
