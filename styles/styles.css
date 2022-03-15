@@ -1858,6 +1858,9 @@ body {
 .auth-form-field[type="text"] {
   padding: 0 246px 1px 19px;
   appearance: none;
+  background-image: url(../images/svg/main/schedule.svg);
+  background-repeat: no-repeat;
+  background-position: right 19px center;
 }
 
 .auth-form-field::placeholder {
