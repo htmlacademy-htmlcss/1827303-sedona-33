@@ -1849,12 +1849,6 @@ body {
   border: none;
 }
 
-.auth-form-field::-webkit-outer-spin-button,
-.auth-form-field::-webkit-inner-spin-button {
-  appearance: none;
-  margin: 0;
-}
-
 .auth-form-field[type="text"] {
   padding: 0 40px 1px 19px;
   appearance: none;
@@ -1980,6 +1974,21 @@ body {
   padding: 0 50px;
   appearance: none;
   text-align: center;
+}
+
+.auth-form-field::-webkit-outer-spin-button,
+.auth-form-field::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+.auth-form-field::-webkit-outer-spin-button,
+.auth-form-field::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.auth-form-field[type="number"] {
+  -moz-appearance: textfield;
 }
 
 .button-counter-wrapper {
