@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Каталог</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="/images/favicon.svg">
   </head>
   <body>
 
@@ -35,7 +36,9 @@
               <span class="visually-hidden">Понравившиеся</span>
             </a>
           </li>
-          <a class="navigation-link navigation-link-button" href="#">Хочу сюда!</a>
+          <li class="navigation-item">
+            <a class="navigation-link navigation-link-button" href="#">Хочу сюда!</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -63,20 +66,23 @@
                 <ul class="catalog-filter-list">
                   <li class="catalog-filter-item">
                     <label class="control">
-                      <input class="control-input" type="checkbox" name="swimming-pool" checked>
-                      Бассейн
+                      <input class="visually-hidden control-input" type="checkbox" name="swimming-pool" checked>
+                      <span class="control-mark"></span>
+                      <span class="control-label">Бассейн</span>
                     </label>
                   </li>
                   <li class="catalog-filter-item">
                     <label class="control">
-                      <input class="control-input" type="checkbox" name="parking" checked>
-                      Парковка
+                      <input class="visually-hidden control-input" type="checkbox" name="parking" checked>
+                      <span class="control-mark"></span>
+                      <span class="control-label">Парковка</span>
                     </label>
                   </li>
                   <li class="catalog-filter-item">
                     <label class="control">
-                      <input class="control-input" type="checkbox" name="Wi-Fi">
-                      Wi-Fi
+                      <input class="visually-hidden control-input" type="checkbox" name="Wi-Fi">
+                      <span class="control-mark"></span>
+                      <span class="control-label">Wi-Fi</span>
                     </label>
                   </li>
                 </ul>
@@ -87,20 +93,23 @@
                   <ul class="catalog-filter-list">
                     <li class="catalog-filter-item">
                       <label class="control">
-                        <input class="control-input" type="radio" name="home-group" value="hotel" checked>
-                        Гостиница
+                        <input class="visually-hidden control-input" type="radio" name="home-group" value="hotel" checked>
+                        <span class="control-mark"></span>
+                        <span class="control-label">Гостиница</span>
                       </label>
                     </li>
                     <li class="catalog-filter-item">
                       <label class="control">
-                        <input class="control-input" type="radio" name="home-group" value="motel">
-                        Мотель
+                        <input class="visually-hidden control-input" type="radio" name="home-group" value="motel">
+                        <span class="control-mark"></span>
+                        <span class="control-label">Мотель</span>
                       </label>
                     </li>
                     <li class="catalog-filter-item">
                       <label class="control">
-                        <input class="control-input" type="radio" name="home-group" value="apartments">
-                        Апартаменты
+                        <input class="visually-hidden control-input" type="radio" name="home-group" value="apartments">
+                        <span class="control-mark"></span>
+                        <span class="control-label">Апартаменты</span>
                       </label>
                     </li>
                   </ul>
@@ -113,16 +122,27 @@
                   <div class="range-container">
                     <div class="range range-min">
                       <label for="segment-min">от</label>
-                      <input class="range-segment-min" type="text" id="segment-min" placeholder="0">
+                      <input class="range-input range-segment-min" type="number" id="segment-min" placeholder="0">
                     </div>
 
                     <div class="range range-max">
                       <label for="segment-max">до</label>
-                      <input class="range-segment-max" type="text" id="segment-max" placeholder="9000">
+                      <input class="range-input range-segment-max" type="number" id="segment-max" placeholder="9000">
                     </div>
                   </div>
 
-                  <input type="range" name="price" min="0" max="10000" value="9000">
+                  <div class="range">
+                    <div class="range-scale">
+                      <div class="range-bar" style="left: 0; width: 227px">
+                        <button class="range-toggle toggle-min">
+                          <span class="visually-hidden">Изменить минимальную цену.</span>
+                        </button>
+                        <button class="range-toggle toggle-max">
+                          <span class="visually-hidden">Изменить минимальную цену.</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </fieldset>
 
@@ -182,10 +202,12 @@
               </div>
               <div class="catalog-content-wrapper wrapper-about">
                 <div class="icons-star">
-                  <img class="star" src="images/svg/catalog/star.svg" alt="Звезда.">
-                  <img class="star" src="images/svg/catalog/star.svg" alt="Звезда.">
-                  <img class="star" src="images/svg/catalog/star.svg" alt="Звезда.">
-                  <img class="star" src="images/svg/catalog/star.svg" alt="Звезда.">
+                  <ul class="stars">
+                    <li class="star"></li>
+                    <li class="star"></li>
+                    <li class="star"></li>
+                    <li class="star"></li>
+                  </ul>
                 </div>
                 <p class="rating">Рейтинг: 8,5</p>
               </div>
@@ -204,9 +226,11 @@
               </div>
               <div class="catalog-content-wrapper wrapper-about">
                 <div class="icons-star">
-                  <img class="star" src="images/svg/catalog/star.svg" alt="Звезда.">
-                  <img class="star" src="images/svg/catalog/star.svg" alt="Звезда.">
-                  <img class="star" src="images/svg/catalog/star.svg" alt="Звезда.">
+                  <ul class="stars">
+                    <li class="star"></li>
+                    <li class="star"></li>
+                    <li class="star"></li>
+                  </ul>
                 </div>
                 <p class="rating">Рейтинг: 8,9</p>
               </div>
@@ -225,8 +249,10 @@
               </div>
               <div class="catalog-content-wrapper wrapper-about">
                 <div class="icons-star">
-                  <img class="star" src="images/svg/catalog/star.svg" alt="Звезда.">
-                  <img class="star" src="images/svg/catalog/star.svg" alt="Звезда.">
+                  <ul class="stars">
+                    <li class="star"></li>
+                    <li class="star"></li>
+                  </ul>
                 </div>
                 <p class="rating">Рейтинг: 9,2</p>
               </div>
@@ -245,8 +271,10 @@
               </div>
               <div class="catalog-content-wrapper wrapper-about">
                 <div class="icons-star">
-                  <img class="star" src="images/svg/catalog/star.svg" alt="Звезда.">
-                  <img class="star" src="images/svg/catalog/star.svg" alt="Звезда.">
+                  <ul class="stars">
+                    <li class="star"></li>
+                    <li class="star"></li>
+                  </ul>
                 </div>
                 <p class="rating">Рейтинг: 9,2</p>
               </div>
@@ -297,8 +325,8 @@
             <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
             <form class="newsletter-form" action="https://echo.htmlacademy.ru" method="post">
               <div class="input-container">
-                <input class="field" type="email" placeholder="Ваш e-mail">
-                <button class="button button-subscribe" type="submit">Подписаться</button>
+                  <input class="field" type="email" placeholder="Ваш e-mail">
+                  <button class="button button-subscribe" type="submit">Подписаться</button>
               </div>
             </form>
           </div>
