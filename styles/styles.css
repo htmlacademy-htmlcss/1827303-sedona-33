@@ -1001,7 +1001,8 @@ body {
 }
 
 .catalog-item-photo {
-  display: block;
+  max-width: 100%;
+  object-fit: contain;
 }
 
 .catalog-item-photo:hover {
