@@ -1772,9 +1772,9 @@ body {
   background-color: rgba(242, 242, 242, 0.8);
 }
 
-.modal-container-close {
+/* .modal-container-close {
   display: none;
-}
+} */
 
 .modal-content {
   position: relative;
@@ -1857,6 +1857,20 @@ body {
   background-position: right 19px center;
 }
 
+.auth-form-field[type="text"]:hover {
+  background-color: #E6E6E6;
+}
+
+.auth-form-field[type="text"]:focus {
+  background-color: #E6E6E6;
+  outline: 3px solid #83B3D3;
+}
+
+.auth-form-field[type="text"]:active {
+  background-color: #FFFFFF;
+  outline: 2px solid #000000;
+}
+
 .auth-form-field::placeholder {
   font-weight: 700;
   font-size: 18px;
@@ -1870,12 +1884,10 @@ body {
   font-size: 16px;
   line-height: 40px;
   color: #FF5757;
-  background-color: #FFFFFF;
 }
 
 .label-wrapper-data + .label-wrapper-data .help {
   color: #333333;
-  background-color: #FFFFFF;
 }
 
 .label-wrapper {
