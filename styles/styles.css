@@ -226,8 +226,8 @@ body {
 
 .button-close {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 54px;
+  right: 70px;
   width: 53px;
   height: 53px;
   background-color: #F2F2F2;
@@ -1789,9 +1789,9 @@ body {
   background-color: rgba(242, 242, 242, 0.8);
 }
 
-.modal-container-close {
+/* .modal-container-close {
   display: none;
-}
+} */
 
 .modal-content {
   position: relative;
