@@ -1554,6 +1554,9 @@ body {
 .subscribe {
   min-height: 410px;
   display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding-top: 94px;
   font-size: 22px;
   line-height: 26px;
   color: #FFFFFF;
@@ -1564,10 +1567,15 @@ body {
   background-repeat: no-repeat;
 }
 
+.subscribe h2 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 29px;
+}
+
 .subscribe-container {
   width: 800px;
-  min-height: 224px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .subscribe-container h2 {
