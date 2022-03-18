@@ -1375,23 +1375,23 @@ body {
 }
 
 .advantage-item:nth-of-type(1) .contant-wrapper {
-  background-image: url("../images/svg/main/№1.svg");
+  background-image: url("../images/svg/main/number-1.svg");
 }
 
 .advantage-item:nth-of-type(3) .contant-wrapper {
-  background-image: url("../images/svg/main/№2.svg");
+  background-image: url("../images/svg/main/number-2.svg");
 }
 
 .advantage-item:nth-of-type(4) .contant-wrapper {
-  background-image: url("../images/svg/main/№3.svg");
+  background-image: url("../images/svg/main/number-3.svg");
 }
 
 .advantage-item:nth-of-type(5) .contant-wrapper {
-  background-image: url("../images/svg/main/№4.svg");
+  background-image: url("../images/svg/main/number-4.svg");
 }
 
 .advantage-item:nth-of-type(6) .contant-wrapper {
-  background-image: url("../images/svg/main/№5.svg");
+  background-image: url("../images/svg/main/number-5.svg");
 }
 
 .advantage-item {
