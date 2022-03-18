@@ -1244,23 +1244,25 @@ body {
 /* Subscribe */
 .subscribe-catalog {
   display: flex;
-  min-height: 454px;
+  flex-direction: column;
   font-size: 22px;
   line-height: 26px;
   color: #333333;
   background-color: #FFFFFF;
   text-align: center;
+  box-sizing: border-box;
+  padding-top: 73px;
+  padding-bottom: 141px;
 }
 
 .subscribe-catalog .subscribe-container-catalog {
-  min-height: 241px;
   margin: 0 auto;
-  margin-top: 73px;
-  margin-bottom: 140px;
 }
 
-.subscribe-container-catalog .subscribe-catalog-title {
+.subscribe-catalog-title {
   color: #000000;
+  margin: 0;
+  padding: 0;
   margin-bottom: 46px;
 }
 
@@ -1552,11 +1554,11 @@ body {
 }
 
 .subscribe {
-  min-height: 410px;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
   padding-top: 94px;
+  padding-bottom: 94px;
   font-size: 22px;
   line-height: 26px;
   color: #FFFFFF;
@@ -1789,9 +1791,9 @@ body {
   background-color: rgba(242, 242, 242, 0.8);
 }
 
-/* .modal-container-close {
+.modal-container-close {
   display: none;
-} */
+}
 
 .modal-content {
   position: relative;
