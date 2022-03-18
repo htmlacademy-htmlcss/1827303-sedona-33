@@ -1284,7 +1284,7 @@ body {
 .first-screen-image::after {
   position: absolute;
   display: block;
-  content: url("../images/svg/main/vector.svg");
+  content: url("../images/svg/main/white-background.svg");
   width: 1200px;
   height: 57px;
   bottom: 0;
