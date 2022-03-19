@@ -349,14 +349,21 @@ body {
 }
 
 .header-logo-link {
+  position: relative;
   display: block;
+  width: 139px;
   margin-right: 30px;
   text-decoration: none;
 }
 
 .header-logo {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
   max-width: 100%;
   object-fit: contain;
+  z-index: 1;
 }
 
 .navigation-list {
@@ -410,7 +417,7 @@ body {
 .navigation-user .navigation-link {
   min-width: 22px;
   min-height: 22px;
-  padding: 24px 12px;
+  padding: 22px 12px;
 }
 
 .navigation-user .navigation-link-button {
@@ -1264,6 +1271,7 @@ body {
   margin: 0;
   padding: 0;
   margin-bottom: 46px;
+  text-transform: uppercase;
 }
 
 .subscribe-catalog input{
@@ -1279,7 +1287,7 @@ body {
   background-image: url("../images/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
-  padding-top: 46px;
+  padding-top: 51px;
   padding-bottom: 82px;
 }
 
@@ -1335,17 +1343,17 @@ body {
 }
 
 .advantage-list .advantage-item:nth-of-type(1)::after {
-  display: block;
   content: url("../images/advantages-1.jpg");
-  width: 800px;
+  max-width: 800px;
   height: 384px;
+  object-fit: contain;
 }
 
 .advantage-list .advantage-item:nth-of-type(3)::before {
-  display: block;
   content: url("../images/advantages-2.jpg");
-  width: 800px;
+  max-width: 800px;
   height: 384px;
+  object-fit: contain;
 }
 
 .advantage-list .advantage-item:nth-of-type(1),
@@ -1366,9 +1374,7 @@ body {
 }
 
 .contant-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  padding-top: 97px;
 }
 
 .advantage-item .contant-wrapper {
@@ -1412,7 +1418,7 @@ body {
   line-height: 28px;
   text-transform: uppercase;
   margin: 0;
-  margin-bottom: 80px;
+  margin-bottom: 81px;
 }
 
 .advantage-title-photo {
@@ -1434,12 +1440,6 @@ body {
   margin: 0 auto;
 }
 
-.advantage-item:nth-of-type(1) .advantage-descriprion,
-.advantage-item:nth-of-type(5) .advantage-descriprion  {
-  width: 220px;
-  margin: 0 auto;
-}
-
 .advantage-sub-list {
   display: flex;
   flex-wrap: wrap;
@@ -1449,9 +1449,7 @@ body {
 }
 
 .advantage-subitem {
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
+  padding-top: 184px;
   width: 400px;
   min-height: 384px;
   box-sizing: border-box;
@@ -1573,6 +1571,7 @@ body {
   margin: 0;
   padding: 0;
   margin-bottom: 29px;
+  text-transform: uppercase;
 }
 
 .subscribe-container {
