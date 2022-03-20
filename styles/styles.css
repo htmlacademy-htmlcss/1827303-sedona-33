@@ -535,8 +535,8 @@ body {
 /* Filter */
 .catalog-filter {
   padding-top: 35px;
-  padding-bottom: 71px;
-  padding-left: 72px;
+  padding-bottom: 83px;
+  padding-left: 71px;
   padding-right: 72px;
   color: #FFFFFF;
   background-color: #83B3D3;
@@ -879,7 +879,7 @@ body {
   align-items: center;
   width: 1200px;
   box-sizing: border-box;
-  padding: 0 70px;
+  padding: 0 72px 0 71px;
   margin-top: 44px;
   margin-bottom: 53px;
   font-size: 18px;
@@ -908,7 +908,7 @@ body {
   box-sizing: border-box;
   border: 2px solid #E6E6E6;
   border-radius: 4px;
-  padding: 12px 67px 13px 19px;
+  padding: 9px 67px 15px 16px;
   margin-right: 80px;
   color: #333333;
   background-color: inherit;
@@ -1229,7 +1229,6 @@ body {
 
 .text-output {
   display: flex;
-  align-items: center;
   margin-left: auto;
 }
 
@@ -1238,12 +1237,13 @@ body {
   margin: 0;
   margin-right: 51px;
   padding: 0;
+  padding-top: 12px;
 }
 
 .text-output select {
   width: 160px;
   margin: 0;
-  padding: 13px 40px 12px 17px;
+  padding: 10px 40px 12px 14px;
   font-family: inherit;
   font-weight: 400;
   font-size: 18px;
@@ -1270,6 +1270,9 @@ body {
 }
 
 .subscribe-catalog-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
   color: #000000;
   margin: 0;
   padding: 0;
