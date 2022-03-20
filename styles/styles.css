@@ -415,9 +415,9 @@ body {
 }
 
 .navigation-user .navigation-link {
-  min-width: 22px;
-  min-height: 22px;
-  padding: 22px 12px;
+  min-width: 20px;
+  min-height: 20px;
+  padding: 22px 11px;
 }
 
 .navigation-user .navigation-link-button {
@@ -465,8 +465,8 @@ body {
   display: flex;
   content: "";
   position: absolute;
-  bottom: 34px;
-  left: 25px;
+  bottom: 30px;
+  left: 24px;
   width: 19px;
   height: 19px;
   border-radius: 50%;
@@ -491,10 +491,10 @@ body {
 .navigation-icon-number {
   position: absolute;
   fill: #FFFFFF;
-  right: -22px;
+  right: -24px;
   bottom: 0;
   left: 0;
-  top: -16px;
+  top: -14px;
   margin: auto;
   z-index: 2;
 }
