@@ -1442,6 +1442,11 @@ body {
   background-color: inherit;
 }
 
+.advantage-item:nth-child(1) .advantage-descriprion,
+.advantage-item:nth-child(3) .advantage-descriprion {
+  width: 220px;
+}
+
 .advantage-descriprion {
   width: 250px;
   margin: 0 auto;
