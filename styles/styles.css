@@ -707,16 +707,16 @@ body {
   border-radius: 4px;
 }
 
-.filter-container-services .control:hover .control-mark {
+.control:hover .control-mark {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-.filter-container-services .control:focus .control-mark {
+.control:focus .control-mark {
   background-color: rgba(255, 255, 255, 0.6);
   outline: 3px solid #83B3D3;
 }
 
-.filter-container-services .control:active .control-mark {
+.control:active .control-mark {
   background-color: rgba(255, 255, 255, 0.3);
   outline: none;
 }
@@ -1440,6 +1440,11 @@ body {
 .advantage-title-photo + .advantage-descriprion {
   color: inherit;
   background-color: inherit;
+}
+
+.advantage-item:nth-child(1) .advantage-descriprion,
+.advantage-item:nth-child(3) .advantage-descriprion {
+  width: 220px;
 }
 
 .advantage-descriprion {
