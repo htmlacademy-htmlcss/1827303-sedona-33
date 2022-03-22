@@ -746,15 +746,24 @@ body {
   left: 5px;
   content: "";
 }
+.control-radio:hover .control-mark {
+  background-color: #FFFFFF;
+}
 
-.filter-container-building .control:focus .control-mark {
+.control-radio:focus .control-mark {
+  background-color: #FFFFFF;
   box-sizing: border-box;
   border: 3px solid #83B3D3;
+  outline: none;
+}
+
+.control-radio:active .control-mark {
+  background-color: #FFFFFF;
 }
 
 .control:focus .control-input[type="radio"]:checked + .control-mark {
-  border: none;
   outline: 3px solid #83B3D3;
+  border: none;
 }
 
 .filter-container-input {
